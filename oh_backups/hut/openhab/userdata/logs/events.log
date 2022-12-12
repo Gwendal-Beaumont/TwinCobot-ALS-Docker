@@ -1,0 +1,60 @@
+2022-12-12 18:58:36.358 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'ZWaveNode005PST02ASlimMultiSensorPIRDoorTemperatureIllumination_DoorWindowSensor' changed from NULL to CLOSED
+2022-12-12 18:58:36.364 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'ZWaveNode005PST02ASlimMultiSensorPIRDoorTemperatureIllumination_MotionSensor' changed from NULL to ON
+2022-12-12 18:58:36.371 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'ZWaveNode005PST02ASlimMultiSensorPIRDoorTemperatureIllumination_Sensorluminance' changed from NULL to 60.0
+2022-12-12 18:58:36.428 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'ZWaveNode004ZW100Multisensor6_Sensortemperature' changed from NULL to 19.4 °C
+2022-12-12 18:58:36.429 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'ZWaveNode006HKZWSO05SmartPlug_ElectricmeterkWh' changed from NULL to 0.037
+2022-12-12 18:58:36.429 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'ZWaveNode006HKZWSO05SmartPlug_Electricmetervolts' changed from NULL to 236.723
+2022-12-12 18:58:36.430 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'ZWaveNode004ZW100Multisensor6_MotionAlarm' changed from NULL to ON
+2022-12-12 18:58:36.430 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'ZWaveNode004ZW100Multisensor6_Sensorultraviolet' changed from NULL to 0.0
+2022-12-12 18:58:36.448 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'ZWaveNode004ZW100Multisensor6_Sensorrelativehumidity' changed from NULL to 69.0
+2022-12-12 18:58:36.466 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'ZWaveNode004ZW100Multisensor6_TamperAlarm' changed from NULL to OFF
+2022-12-12 18:58:36.473 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'ZWaveNode006HKZWSO05SmartPlug_Electricmeteramps' changed from NULL to 0.0
+2022-12-12 18:58:36.483 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'HTTPBedPressureSimulator_bed_press_simulator_channel' changed from NULL to 652.0
+2022-12-12 18:58:36.511 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'ZWaveNode005PST02ASlimMultiSensorPIRDoorTemperatureIllumination_Sensortemperature' changed from NULL to 21.5 °C
+2022-12-12 18:58:36.530 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'ZWaveNode005PST02ASlimMultiSensorPIRDoorTemperatureIllumination_NiveauBatterie' changed from NULL to 100.0
+2022-12-12 18:58:36.542 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'ZWaveNode005PST02ASlimMultiSensorPIRDoorTemperatureIllumination_TamperAlarm' changed from NULL to OFF
+2022-12-12 18:58:36.577 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'HTTPBedPressurePredictor_bed_press_predictor_channel' changed from NULL to 646.0
+2022-12-12 18:58:36.585 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'ZWaveNode003RGBWE2RGBWBulbV2_ColorControl' changed from NULL to 0,0,40
+2022-12-12 18:58:36.592 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'ZWaveNode006HKZWSO05SmartPlug_Electricmeterwatts' changed from NULL to 0.0
+2022-12-12 18:58:36.606 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'ZWaveNode003RGBWE2RGBWBulbV2_ColorTemperature' changed from NULL to 0
+2022-12-12 18:58:36.622 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'ZWaveNode004ZW100Multisensor6_Sensorluminance' changed from NULL to 113.0
+2022-12-12 18:58:36.635 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'ZWaveNode006HKZWSO05SmartPlug_Switch' changed from NULL to OFF
+2022-12-12 18:58:36.652 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'ZWaveNode003RGBWE2RGBWBulbV2_Dimmer' changed from NULL to 40
+2022-12-12 18:58:37.134 [INFO ] [ab.event.ThingStatusInfoChangedEvent] - Thing 'http:url:da0315f572' changed from UNINITIALIZED to INITIALIZING
+2022-12-12 18:58:37.160 [INFO ] [ab.event.ThingStatusInfoChangedEvent] - Thing 'http:url:da0315f572' changed from INITIALIZING to ONLINE
+2022-12-12 18:58:37.162 [INFO ] [ab.event.ThingStatusInfoChangedEvent] - Thing 'http:url:89c5736419' changed from UNINITIALIZED to INITIALIZING
+2022-12-12 18:58:37.186 [INFO ] [ab.event.ThingStatusInfoChangedEvent] - Thing 'http:url:89c5736419' changed from INITIALIZING to ONLINE
+2022-12-12 18:58:38.652 [INFO ] [ab.event.ThingStatusInfoChangedEvent] - Thing 'zwave:device:fc241cb69f:node5' changed from UNINITIALIZED to UNINITIALIZED (BRIDGE_UNINITIALIZED)
+2022-12-12 18:58:38.706 [INFO ] [ab.event.ThingStatusInfoChangedEvent] - Thing 'zwave:serial_zstick:f8576f561d' changed from UNINITIALIZED to INITIALIZING
+2022-12-12 18:58:38.712 [INFO ] [ab.event.ThingStatusInfoChangedEvent] - Thing 'zwave:serial_zstick:f8576f561d' changed from INITIALIZING to OFFLINE (BRIDGE_OFFLINE): Controller is offline
+2022-12-12 18:58:38.741 [INFO ] [ab.event.ThingStatusInfoChangedEvent] - Thing 'zwave:device:f8576f561d:node4' changed from UNINITIALIZED to INITIALIZING
+2022-12-12 18:58:38.746 [INFO ] [ab.event.ThingStatusInfoChangedEvent] - Thing 'zwave:device:f8576f561d:node4' changed from INITIALIZING to OFFLINE (BRIDGE_OFFLINE): Controller is offline
+2022-12-12 18:58:38.752 [INFO ] [ab.event.ThingStatusInfoChangedEvent] - Thing 'zwave:device:f8576f561d:node3' changed from UNINITIALIZED to INITIALIZING
+2022-12-12 18:58:38.754 [INFO ] [ab.event.ThingStatusInfoChangedEvent] - Thing 'zwave:device:f8576f561d:node5' changed from UNINITIALIZED to INITIALIZING
+2022-12-12 18:58:38.756 [INFO ] [ab.event.ThingStatusInfoChangedEvent] - Thing 'zwave:device:f8576f561d:node3' changed from INITIALIZING to OFFLINE (BRIDGE_OFFLINE): Controller is offline
+2022-12-12 18:58:38.757 [INFO ] [ab.event.ThingStatusInfoChangedEvent] - Thing 'zwave:device:f8576f561d:node6' changed from UNINITIALIZED to INITIALIZING
+2022-12-12 18:58:38.759 [INFO ] [ab.event.ThingStatusInfoChangedEvent] - Thing 'zwave:device:f8576f561d:node5' changed from INITIALIZING to OFFLINE (BRIDGE_OFFLINE): Controller is offline
+2022-12-12 18:58:38.762 [INFO ] [ab.event.ThingStatusInfoChangedEvent] - Thing 'zwave:device:f8576f561d:node6' changed from INITIALIZING to OFFLINE (BRIDGE_OFFLINE): Controller is offline
+2022-12-12 18:58:48.998 [INFO ] [ab.event.ThingStatusInfoChangedEvent] - Thing 'zwave:serial_zstick:f8576f561d' changed from OFFLINE (BRIDGE_OFFLINE): Controller is offline to ONLINE
+2022-12-12 18:58:49.009 [INFO ] [ab.event.ThingStatusInfoChangedEvent] - Thing 'zwave:device:f8576f561d:node5' changed from OFFLINE (BRIDGE_OFFLINE): Controller is offline to ONLINE
+2022-12-12 18:58:49.010 [INFO ] [ab.event.ThingStatusInfoChangedEvent] - Thing 'zwave:device:f8576f561d:node6' changed from OFFLINE (BRIDGE_OFFLINE): Controller is offline to ONLINE
+2022-12-12 18:58:49.010 [INFO ] [ab.event.ThingStatusInfoChangedEvent] - Thing 'zwave:device:f8576f561d:node3' changed from OFFLINE (BRIDGE_OFFLINE): Controller is offline to ONLINE
+2022-12-12 18:58:49.011 [INFO ] [ab.event.ThingStatusInfoChangedEvent] - Thing 'zwave:device:f8576f561d:node4' changed from OFFLINE (BRIDGE_OFFLINE): Controller is offline to ONLINE
+2022-12-12 18:58:53.164 [INFO ] [ab.event.ThingStatusInfoChangedEvent] - Thing 'zwave:device:f8576f561d:node3' changed from ONLINE to ONLINE: Node initialising: PING
+2022-12-12 18:59:01.406 [INFO ] [ab.event.ThingStatusInfoChangedEvent] - Thing 'zwave:device:f8576f561d:node4' changed from ONLINE to OFFLINE (COMMUNICATION_ERROR): Node is not communicating with controller
+2022-12-12 18:59:15.689 [INFO ] [ab.event.ThingStatusInfoChangedEvent] - Thing 'zwave:device:f8576f561d:node6' changed from ONLINE to OFFLINE (COMMUNICATION_ERROR): Node is not communicating with controller
+2022-12-12 18:59:29.980 [INFO ] [ab.event.ThingStatusInfoChangedEvent] - Thing 'zwave:device:f8576f561d:node3' changed from ONLINE: Node initialising: PING to OFFLINE (COMMUNICATION_ERROR): Node is not communicating with controller
+2022-12-12 23:08:43.241 [INFO ] [ab.event.ThingStatusInfoChangedEvent] - Thing 'zwave:device:f8576f561d:node3' changed from OFFLINE (COMMUNICATION_ERROR): Node is not communicating with controller to UNINITIALIZED
+2022-12-12 23:08:43.275 [INFO ] [ab.event.ThingStatusInfoChangedEvent] - Thing 'zwave:device:f8576f561d:node3' changed from UNINITIALIZED to UNINITIALIZED (HANDLER_MISSING_ERROR)
+2022-12-12 23:08:43.277 [INFO ] [ab.event.ThingStatusInfoChangedEvent] - Thing 'zwave:device:f8576f561d:node5' changed from ONLINE to UNINITIALIZED
+2022-12-12 23:08:43.286 [INFO ] [ab.event.ThingStatusInfoChangedEvent] - Thing 'zwave:device:f8576f561d:node5' changed from UNINITIALIZED to UNINITIALIZED (HANDLER_MISSING_ERROR)
+2022-12-12 23:08:43.289 [INFO ] [ab.event.ThingStatusInfoChangedEvent] - Thing 'zwave:device:f8576f561d:node6' changed from OFFLINE (COMMUNICATION_ERROR): Node is not communicating with controller to UNINITIALIZED
+2022-12-12 23:08:43.300 [INFO ] [ab.event.ThingStatusInfoChangedEvent] - Thing 'zwave:device:f8576f561d:node6' changed from UNINITIALIZED to UNINITIALIZED (HANDLER_MISSING_ERROR)
+2022-12-12 23:08:43.300 [INFO ] [ab.event.ThingStatusInfoChangedEvent] - Thing 'zwave:device:f8576f561d:node4' changed from OFFLINE (COMMUNICATION_ERROR): Node is not communicating with controller to UNINITIALIZED
+2022-12-12 23:08:43.310 [INFO ] [ab.event.ThingStatusInfoChangedEvent] - Thing 'zwave:device:f8576f561d:node4' changed from UNINITIALIZED to UNINITIALIZED (HANDLER_MISSING_ERROR)
+2022-12-12 23:08:43.312 [INFO ] [ab.event.ThingStatusInfoChangedEvent] - Thing 'zwave:serial_zstick:f8576f561d' changed from ONLINE to UNINITIALIZED
+2022-12-12 23:08:43.586 [INFO ] [ab.event.ThingStatusInfoChangedEvent] - Thing 'zwave:serial_zstick:f8576f561d' changed from UNINITIALIZED to UNINITIALIZED (HANDLER_MISSING_ERROR)
+2022-12-12 23:08:43.888 [INFO ] [ab.event.ThingStatusInfoChangedEvent] - Thing 'http:url:da0315f572' changed from ONLINE to UNINITIALIZED
+2022-12-12 23:08:43.893 [INFO ] [ab.event.ThingStatusInfoChangedEvent] - Thing 'http:url:da0315f572' changed from UNINITIALIZED to UNINITIALIZED (HANDLER_MISSING_ERROR)
+2022-12-12 23:08:43.894 [INFO ] [ab.event.ThingStatusInfoChangedEvent] - Thing 'http:url:89c5736419' changed from ONLINE to UNINITIALIZED
+2022-12-12 23:08:43.896 [INFO ] [ab.event.ThingStatusInfoChangedEvent] - Thing 'http:url:89c5736419' changed from UNINITIALIZED to UNINITIALIZED (HANDLER_MISSING_ERROR)

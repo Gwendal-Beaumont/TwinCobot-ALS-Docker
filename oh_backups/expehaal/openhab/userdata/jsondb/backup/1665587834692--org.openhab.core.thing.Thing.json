@@ -1,0 +1,1550 @@
+{
+  "http:url:89c5736419": {
+    "class": "org.openhab.core.thing.internal.ThingImpl",
+    "value": {
+      "label": "HTTP Bed Pressure Predictor",
+      "channels": [
+        {
+          "acceptedItemType": "Number",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "http",
+              "url",
+              "89c5736419",
+              "bed_press_predictor_channel"
+            ],
+            "uid": "http:url:89c5736419:bed_press_predictor_channel"
+          },
+          "channelTypeUID": {
+            "segments": [
+              "http",
+              "number"
+            ],
+            "uid": "http:number"
+          },
+          "label": "bed_press_predictor_channel",
+          "description": "",
+          "configuration": {
+            "properties": {
+              "stateExtension": "?datetime\u003d%1$tY-%1$tm-%1$td_%1$tl:%1$tM:00\u0026nbvalues\u003d3",
+              "stateTransformation": "JSONPATH:$.values[1]"
+            }
+          },
+          "properties": {},
+          "defaultTags": [],
+          "autoUpdatePolicy": "DEFAULT"
+        }
+      ],
+      "configuration": {
+        "properties": {
+          "authMode": "BASIC",
+          "baseURL": "http://192.168.50.10:5000/predict/5896/single_datetime_values",
+          "bufferSize": 2048,
+          "commandMethod": "GET",
+          "contentType": "application/json",
+          "delay": 0,
+          "ignoreSSLErrors": false,
+          "password": "raspberry",
+          "refresh": 10,
+          "stateMethod": "GET",
+          "timeout": 3000,
+          "username": "pi"
+        }
+      },
+      "properties": {},
+      "uid": {
+        "segments": [
+          "http",
+          "url",
+          "89c5736419"
+        ],
+        "uid": "http:url:89c5736419"
+      },
+      "thingTypeUID": {
+        "segments": [
+          "http",
+          "url"
+        ],
+        "uid": "http:url"
+      }
+    }
+  },
+  "http:url:da0315f572": {
+    "class": "org.openhab.core.thing.internal.ThingImpl",
+    "value": {
+      "label": "HTTP Bed Pressure Simulator",
+      "channels": [
+        {
+          "acceptedItemType": "Number",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "http",
+              "url",
+              "da0315f572",
+              "bed_press_simulator_channel"
+            ],
+            "uid": "http:url:da0315f572:bed_press_simulator_channel"
+          },
+          "channelTypeUID": {
+            "segments": [
+              "http",
+              "number"
+            ],
+            "uid": "http:number"
+          },
+          "label": "bed_press_simulator_channel",
+          "description": "",
+          "configuration": {
+            "properties": {
+              "stateExtension": "?datetime\u003d%1$tY-%1$tm-%1$td_%1$tl:%1$tM:00",
+              "stateTransformation": "JSONPATH:$.value"
+            }
+          },
+          "properties": {},
+          "defaultTags": [],
+          "autoUpdatePolicy": "DEFAULT"
+        }
+      ],
+      "configuration": {
+        "properties": {
+          "authMode": "BASIC",
+          "baseURL": "http://192.168.50.10:5000/predict/5896/single_datetime",
+          "bufferSize": 2048,
+          "commandMethod": "GET",
+          "contentType": "application/json",
+          "delay": 0,
+          "headers": [
+            "datetime\u003d2022-03-01_17:06:00"
+          ],
+          "ignoreSSLErrors": false,
+          "password": "raspberry",
+          "refresh": 10,
+          "stateMethod": "GET",
+          "timeout": 3000,
+          "username": "pi"
+        }
+      },
+      "properties": {},
+      "uid": {
+        "segments": [
+          "http",
+          "url",
+          "da0315f572"
+        ],
+        "uid": "http:url:da0315f572"
+      },
+      "thingTypeUID": {
+        "segments": [
+          "http",
+          "url"
+        ],
+        "uid": "http:url"
+      },
+      "location": "Bedroom"
+    }
+  },
+  "zwave:device:f514a95ff4:node6": {
+    "class": "org.openhab.core.thing.internal.ThingImpl",
+    "value": {
+      "label": "Z-Wave Node 006",
+      "bridgeUID": {
+        "segments": [
+          "zwave",
+          "serial_zstick",
+          "f514a95ff4"
+        ],
+        "uid": "zwave:serial_zstick:f514a95ff4"
+      },
+      "channels": [],
+      "configuration": {
+        "properties": {
+          "node_id": 6
+        }
+      },
+      "properties": {
+        "zwave_beaming": "true",
+        "zwave_class_basic": "BASIC_TYPE_ROUTING_SLAVE",
+        "zwave_class_generic": "GENERIC_TYPE_SENSOR_MULTILEVEL",
+        "zwave_class_specific": "SPECIFIC_TYPE_ROUTING_SENSOR_MULTILEVEL",
+        "zwave_frequent": "false",
+        "zwave_listening": "true",
+        "zwave_neighbours": "",
+        "zwave_nodeid": "6",
+        "zwave_routing": "true",
+        "zwave_secure": "false",
+        "zwave_version": "0.0"
+      },
+      "uid": {
+        "segments": [
+          "zwave",
+          "device",
+          "f514a95ff4",
+          "node6"
+        ],
+        "uid": "zwave:device:f514a95ff4:node6"
+      },
+      "thingTypeUID": {
+        "segments": [
+          "zwave",
+          "device"
+        ],
+        "uid": "zwave:device"
+      }
+    }
+  },
+  "zwave:device:f8576f561d:node3": {
+    "class": "org.openhab.core.thing.internal.ThingImpl",
+    "value": {
+      "label": "Z-Wave Node 003: RGBWE2 RGBW Bulb V2",
+      "bridgeUID": {
+        "segments": [
+          "zwave",
+          "serial_zstick",
+          "f8576f561d"
+        ],
+        "uid": "zwave:serial_zstick:f8576f561d"
+      },
+      "channels": [
+        {
+          "acceptedItemType": "Dimmer",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "zwave",
+              "device",
+              "f8576f561d",
+              "node3",
+              "switch_dimmer"
+            ],
+            "uid": "zwave:device:f8576f561d:node3:switch_dimmer"
+          },
+          "channelTypeUID": {
+            "segments": [
+              "zwave",
+              "switch_dimmer"
+            ],
+            "uid": "zwave:switch_dimmer"
+          },
+          "label": "Dimmer",
+          "description": "The brightness channel allows to control the brightness of a light. It is also possible to switch the light on and off.",
+          "configuration": {
+            "properties": {
+              "config_restorelastvalue": true
+            }
+          },
+          "properties": {
+            "binding:*:PercentType": "COMMAND_CLASS_SWITCH_MULTILEVEL",
+            "binding:Command:OnOffType": "COMMAND_CLASS_SWITCH_MULTILEVEL"
+          },
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Color",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "zwave",
+              "device",
+              "f8576f561d",
+              "node3",
+              "color_color"
+            ],
+            "uid": "zwave:device:f8576f561d:node3:color_color"
+          },
+          "channelTypeUID": {
+            "segments": [
+              "zwave",
+              "color_color"
+            ],
+            "uid": "zwave:color_color"
+          },
+          "label": "Color Control",
+          "description": "The color channel allows to control the color of a light. It is also possible to dim values and switch the light on and off.",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {
+            "binding:*:HSBType": "COMMAND_CLASS_SWITCH_COLOR;colorMode\u003dRGB",
+            "binding:*:PercentType": "COMMAND_CLASS_SWITCH_MULTILEVEL",
+            "binding:Command:OnOffType": "COMMAND_CLASS_SWITCH_MULTILEVEL"
+          },
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Dimmer",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "zwave",
+              "device",
+              "f8576f561d",
+              "node3",
+              "color_temperature"
+            ],
+            "uid": "zwave:device:f8576f561d:node3:color_temperature"
+          },
+          "channelTypeUID": {
+            "segments": [
+              "zwave",
+              "color_temperature"
+            ],
+            "uid": "zwave:color_temperature"
+          },
+          "label": "Color Temperature",
+          "description": "The color temperature channel allows to set the color temperature of a light from 0 (cold) to 100 (warm).",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {
+            "binding:*:PercentType": "COMMAND_CLASS_SWITCH_COLOR;colorMode\u003dDIFF_WHITE",
+            "binding:Command:OnOffType": "COMMAND_CLASS_SWITCH_MULTILEVEL"
+          },
+          "defaultTags": []
+        }
+      ],
+      "configuration": {
+        "properties": {
+          "config_1_1": 0,
+          "config_255_4_wo": 1,
+          "config_2_1": 0,
+          "config_3_1": 0,
+          "config_4_1": 0,
+          "group_1": [],
+          "node_id": 3,
+          "switchall_mode": 255
+        }
+      },
+      "properties": {
+        "dbReference": "619",
+        "manufacturerId": "0131",
+        "manufacturerRef": "0002:0003",
+        "modelId": "RGBWE2",
+        "vendor": "Zipato",
+        "zwave_beaming": "true",
+        "zwave_class_basic": "BASIC_TYPE_ROUTING_SLAVE",
+        "zwave_class_generic": "GENERIC_TYPE_SWITCH_MULTILEVEL",
+        "zwave_class_specific": "SPECIFIC_TYPE_POWER_SWITCH_MULTILEVEL",
+        "zwave_deviceid": "3",
+        "zwave_devicetype": "2",
+        "zwave_frequent": "false",
+        "zwave_lastheal": "2022-10-08T00:07:54Z",
+        "zwave_listening": "true",
+        "zwave_manufacturer": "305",
+        "zwave_neighbours": "1,5,6",
+        "zwave_nodeid": "3",
+        "zwave_plus_devicetype": "NODE_TYPE_ZWAVEPLUS_NODE",
+        "zwave_plus_roletype": "ROLE_TYPE_SLAVE_ALWAYS_ON",
+        "zwave_routing": "true",
+        "zwave_secure": "false",
+        "zwave_version": "2.28"
+      },
+      "uid": {
+        "segments": [
+          "zwave",
+          "device",
+          "f8576f561d",
+          "node3"
+        ],
+        "uid": "zwave:device:f8576f561d:node3"
+      },
+      "thingTypeUID": {
+        "segments": [
+          "zwave",
+          "zipato_bulb2rgbw_00_000"
+        ],
+        "uid": "zwave:zipato_bulb2rgbw_00_000"
+      }
+    }
+  },
+  "zwave:device:f8576f561d:node4": {
+    "class": "org.openhab.core.thing.internal.ThingImpl",
+    "value": {
+      "label": "Z-Wave Node 004: ZW100 Multisensor 6",
+      "bridgeUID": {
+        "segments": [
+          "zwave",
+          "serial_zstick",
+          "f8576f561d"
+        ],
+        "uid": "zwave:serial_zstick:f8576f561d"
+      },
+      "channels": [
+        {
+          "acceptedItemType": "Number:Temperature",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "zwave",
+              "device",
+              "f8576f561d",
+              "node4",
+              "sensor_temperature"
+            ],
+            "uid": "zwave:device:f8576f561d:node4:sensor_temperature"
+          },
+          "channelTypeUID": {
+            "segments": [
+              "zwave",
+              "sensor_temperature"
+            ],
+            "uid": "zwave:sensor_temperature"
+          },
+          "label": "Sensor (temperature)",
+          "description": "Indicates the current temperature",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {
+            "binding:*:QuantityType": "COMMAND_CLASS_SENSOR_MULTILEVEL;type\u003dTEMPERATURE"
+          },
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Number",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "zwave",
+              "device",
+              "f8576f561d",
+              "node4",
+              "sensor_ultraviolet"
+            ],
+            "uid": "zwave:device:f8576f561d:node4:sensor_ultraviolet"
+          },
+          "channelTypeUID": {
+            "segments": [
+              "zwave",
+              "sensor_ultraviolet"
+            ],
+            "uid": "zwave:sensor_ultraviolet"
+          },
+          "label": "Sensor (ultraviolet)",
+          "description": "Indicates the current ultraviolet level",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {
+            "binding:*:DecimalType": "COMMAND_CLASS_SENSOR_MULTILEVEL;type\u003dULTRAVIOLET"
+          },
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Number",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "zwave",
+              "device",
+              "f8576f561d",
+              "node4",
+              "sensor_luminance"
+            ],
+            "uid": "zwave:device:f8576f561d:node4:sensor_luminance"
+          },
+          "channelTypeUID": {
+            "segments": [
+              "zwave",
+              "sensor_luminance"
+            ],
+            "uid": "zwave:sensor_luminance"
+          },
+          "label": "Sensor (luminance)",
+          "description": "Indicates the current light reading",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {
+            "binding:*:DecimalType": "COMMAND_CLASS_SENSOR_MULTILEVEL;type\u003dLUMINANCE"
+          },
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Number",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "zwave",
+              "device",
+              "f8576f561d",
+              "node4",
+              "sensor_relhumidity"
+            ],
+            "uid": "zwave:device:f8576f561d:node4:sensor_relhumidity"
+          },
+          "channelTypeUID": {
+            "segments": [
+              "zwave",
+              "sensor_relhumidity"
+            ],
+            "uid": "zwave:sensor_relhumidity"
+          },
+          "label": "Sensor (relative humidity)",
+          "description": "Indicates the current relative humidity",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {
+            "binding:*:DecimalType": "COMMAND_CLASS_SENSOR_MULTILEVEL;type\u003dRELATIVE_HUMIDITY"
+          },
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Switch",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "zwave",
+              "device",
+              "f8576f561d",
+              "node4",
+              "alarm_motion"
+            ],
+            "uid": "zwave:device:f8576f561d:node4:alarm_motion"
+          },
+          "channelTypeUID": {
+            "segments": [
+              "zwave",
+              "alarm_motion"
+            ],
+            "uid": "zwave:alarm_motion"
+          },
+          "label": "Motion Alarm",
+          "description": "Indicates if a motion alarm is triggered",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {
+            "binding:*:OnOffType": "COMMAND_CLASS_ALARM;type\u003dBURGLAR, event\u003d8"
+          },
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Switch",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "zwave",
+              "device",
+              "f8576f561d",
+              "node4",
+              "alarm_tamper"
+            ],
+            "uid": "zwave:device:f8576f561d:node4:alarm_tamper"
+          },
+          "channelTypeUID": {
+            "segments": [
+              "zwave",
+              "alarm_tamper"
+            ],
+            "uid": "zwave:alarm_tamper"
+          },
+          "label": "Tamper Alarm",
+          "description": "Indicates if the tamper alarm is triggered",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {
+            "binding:*:OnOffType": "COMMAND_CLASS_ALARM;type\u003dBURGLAR, event\u003d3"
+          },
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Number",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "zwave",
+              "device",
+              "f8576f561d",
+              "node4",
+              "battery-level"
+            ],
+            "uid": "zwave:device:f8576f561d:node4:battery-level"
+          },
+          "channelTypeUID": {
+            "segments": [
+              "system",
+              "battery-level"
+            ],
+            "uid": "system:battery-level"
+          },
+          "label": "Niveau Batterie",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {
+            "binding:*:PercentType": "COMMAND_CLASS_BATTERY"
+          },
+          "defaultTags": [
+            "Energy",
+            "Measurement"
+          ]
+        }
+      ],
+      "configuration": {
+        "properties": {
+          "config_100_1_wo": 0,
+          "config_101_4": 241,
+          "config_102_4": 0,
+          "config_103_4": 0,
+          "config_110_1_wo": 0,
+          "config_111_4": 5,
+          "config_112_4": 5,
+          "config_113_4": 5,
+          "config_201_2": 1,
+          "config_201_2_000000FF": 1,
+          "config_201_2_0000FF00": 0,
+          "config_202_1": 0,
+          "config_203_2": 0,
+          "config_204_1": 0,
+          "config_252_1": 0,
+          "config_255_4_wo": 0,
+          "config_2_1": 0,
+          "config_39_1": 20,
+          "config_3_2": 240,
+          "config_40_1": 0,
+          "config_41_4_0000FF00": 1,
+          "config_41_4_00FF0000": 0,
+          "config_41_4_wo": 20,
+          "config_42_1": 10,
+          "config_43_2": 100,
+          "config_44_1": 10,
+          "config_45_1": 2,
+          "config_46_1": 0,
+          "config_48_1": 0,
+          "config_49_4_0000FF00_wo": 1,
+          "config_49_4_7FFF0000_wo": 280,
+          "config_49_4_wo": 0,
+          "config_4_1": 5,
+          "config_50_4_0000FF00_wo": 1,
+          "config_50_4_7FFF0000_wo": 0,
+          "config_50_4_wo": 0,
+          "config_51_1": 100,
+          "config_52_1": 0,
+          "config_53_2": 1000,
+          "config_54_2": 100,
+          "config_55_1": 8,
+          "config_56_1": 4,
+          "config_57_2": 5121,
+          "config_58_1": 5,
+          "config_59_1": 10,
+          "config_5_1": 1,
+          "config_60_1": 2,
+          "config_61_1": 0,
+          "config_64_1": 1,
+          "config_81_1": 0,
+          "config_8_1": 15,
+          "config_9_2": 2,
+          "config_9_2_00000001": 0,
+          "config_9_2_00000100": 0,
+          "group_1": [
+            "controller"
+          ],
+          "node_id": 4,
+          "wakeup_interval": 3600,
+          "wakeup_node": 1
+        }
+      },
+      "properties": {
+        "dbReference": "778",
+        "defaultAssociations": "1",
+        "manufacturerId": "0086",
+        "manufacturerRef": "0002:0064,0102:0064,0202:0064,1A02:0064",
+        "modelId": "ZW100",
+        "vendor": "AEON Labs",
+        "versionMin": "1.10",
+        "zwave_beaming": "true",
+        "zwave_class_basic": "BASIC_TYPE_ROUTING_SLAVE",
+        "zwave_class_generic": "GENERIC_TYPE_SENSOR_MULTILEVEL",
+        "zwave_class_specific": "SPECIFIC_TYPE_ROUTING_SENSOR_MULTILEVEL",
+        "zwave_deviceid": "100",
+        "zwave_devicetype": "2",
+        "zwave_frequent": "false",
+        "zwave_listening": "true",
+        "zwave_manufacturer": "134",
+        "zwave_neighbours": "",
+        "zwave_nodeid": "4",
+        "zwave_plus_devicetype": "NODE_TYPE_ZWAVEPLUS_NODE",
+        "zwave_plus_roletype": "ROLE_TYPE_SLAVE_ALWAYS_ON",
+        "zwave_routing": "true",
+        "zwave_secure": "false",
+        "zwave_version": "1.12"
+      },
+      "uid": {
+        "segments": [
+          "zwave",
+          "device",
+          "f8576f561d",
+          "node4"
+        ],
+        "uid": "zwave:device:f8576f561d:node4"
+      },
+      "thingTypeUID": {
+        "segments": [
+          "zwave",
+          "aeon_zw100_01_010"
+        ],
+        "uid": "zwave:aeon_zw100_01_010"
+      }
+    }
+  },
+  "zwave:device:f8576f561d:node5": {
+    "class": "org.openhab.core.thing.internal.ThingImpl",
+    "value": {
+      "label": "Z-Wave Node 005: PST02A Slim Multi-Sensor (PIR/Door/Temperature/Illumination)",
+      "bridgeUID": {
+        "segments": [
+          "zwave",
+          "serial_zstick",
+          "f8576f561d"
+        ],
+        "uid": "zwave:serial_zstick:f8576f561d"
+      },
+      "channels": [
+        {
+          "acceptedItemType": "Contact",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "zwave",
+              "device",
+              "f8576f561d",
+              "node5",
+              "sensor_door"
+            ],
+            "uid": "zwave:device:f8576f561d:node5:sensor_door"
+          },
+          "channelTypeUID": {
+            "segments": [
+              "zwave",
+              "sensor_door"
+            ],
+            "uid": "zwave:sensor_door"
+          },
+          "label": "Door/Window Sensor",
+          "description": "Indicates if the door/window is open or closed",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {
+            "binding:*:OpenClosedType": "COMMAND_CLASS_SENSOR_BINARY;type\u003dDOORWINDOW"
+          },
+          "defaultTags": [],
+          "autoUpdatePolicy": "DEFAULT"
+        },
+        {
+          "acceptedItemType": "Switch",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "zwave",
+              "device",
+              "f8576f561d",
+              "node5",
+              "alarm_motion"
+            ],
+            "uid": "zwave:device:f8576f561d:node5:alarm_motion"
+          },
+          "channelTypeUID": {
+            "segments": [
+              "zwave",
+              "alarm_motion"
+            ],
+            "uid": "zwave:alarm_motion"
+          },
+          "label": "Motion Sensor",
+          "description": "Indicates if a motion alarm is triggered",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {
+            "binding:*:OnOffType": "COMMAND_CLASS_SENSOR_BINARY;type\u003dMOTION"
+          },
+          "defaultTags": [],
+          "autoUpdatePolicy": "DEFAULT"
+        },
+        {
+          "acceptedItemType": "Switch",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "zwave",
+              "device",
+              "f8576f561d",
+              "node5",
+              "alarm_tamper"
+            ],
+            "uid": "zwave:device:f8576f561d:node5:alarm_tamper"
+          },
+          "channelTypeUID": {
+            "segments": [
+              "zwave",
+              "alarm_tamper"
+            ],
+            "uid": "zwave:alarm_tamper"
+          },
+          "label": "Tamper Alarm",
+          "description": "Indicates if the tamper alarm is triggered",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {
+            "binding:*:OnOffType": "COMMAND_CLASS_SENSOR_BINARY;type\u003dTAMPER"
+          },
+          "defaultTags": [],
+          "autoUpdatePolicy": "DEFAULT"
+        },
+        {
+          "acceptedItemType": "Number",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "zwave",
+              "device",
+              "f8576f561d",
+              "node5",
+              "sensor_luminance"
+            ],
+            "uid": "zwave:device:f8576f561d:node5:sensor_luminance"
+          },
+          "channelTypeUID": {
+            "segments": [
+              "zwave",
+              "sensor_luminance"
+            ],
+            "uid": "zwave:sensor_luminance"
+          },
+          "label": "Sensor (luminance)",
+          "description": "Indicates the current light reading",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {
+            "binding:*:DecimalType": "COMMAND_CLASS_SENSOR_MULTILEVEL,COMMAND_CLASS_BASIC;type\u003dLUMINANCE"
+          },
+          "defaultTags": [],
+          "autoUpdatePolicy": "DEFAULT"
+        },
+        {
+          "acceptedItemType": "Number:Temperature",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "zwave",
+              "device",
+              "f8576f561d",
+              "node5",
+              "sensor_temperature"
+            ],
+            "uid": "zwave:device:f8576f561d:node5:sensor_temperature"
+          },
+          "channelTypeUID": {
+            "segments": [
+              "zwave",
+              "sensor_temperature"
+            ],
+            "uid": "zwave:sensor_temperature"
+          },
+          "label": "Sensor (temperature)",
+          "description": "Indicates the current temperature",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {
+            "binding:*:QuantityType": "COMMAND_CLASS_SENSOR_MULTILEVEL,COMMAND_CLASS_BASIC;type\u003dTEMPERATURE"
+          },
+          "defaultTags": [],
+          "autoUpdatePolicy": "DEFAULT"
+        },
+        {
+          "acceptedItemType": "Switch",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "zwave",
+              "device",
+              "f8576f561d",
+              "node5",
+              "alarm_access"
+            ],
+            "uid": "zwave:device:f8576f561d:node5:alarm_access"
+          },
+          "channelTypeUID": {
+            "segments": [
+              "zwave",
+              "alarm_access"
+            ],
+            "uid": "zwave:alarm_access"
+          },
+          "label": "Alarm (Access Control)",
+          "description": "Indicates if the access control alarm is triggered",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {
+            "binding:*:OnOffType": "COMMAND_CLASS_ALARM;type\u003dACCESS_CONTROL"
+          },
+          "defaultTags": [],
+          "autoUpdatePolicy": "DEFAULT"
+        },
+        {
+          "acceptedItemType": "Switch",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "zwave",
+              "device",
+              "f8576f561d",
+              "node5",
+              "alarm_burglar"
+            ],
+            "uid": "zwave:device:f8576f561d:node5:alarm_burglar"
+          },
+          "channelTypeUID": {
+            "segments": [
+              "zwave",
+              "alarm_burglar"
+            ],
+            "uid": "zwave:alarm_burglar"
+          },
+          "label": "Alarm (Burglar)",
+          "description": "Indicates if the burglar alarm is triggered",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {
+            "binding:*:OnOffType": "COMMAND_CLASS_ALARM;type\u003dBURGLAR"
+          },
+          "defaultTags": [],
+          "autoUpdatePolicy": "DEFAULT"
+        },
+        {
+          "acceptedItemType": "Number",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "zwave",
+              "device",
+              "f8576f561d",
+              "node5",
+              "battery-level"
+            ],
+            "uid": "zwave:device:f8576f561d:node5:battery-level"
+          },
+          "channelTypeUID": {
+            "segments": [
+              "system",
+              "battery-level"
+            ],
+            "uid": "system:battery-level"
+          },
+          "label": "Niveau Batterie",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {
+            "binding:*:PercentType": "COMMAND_CLASS_BATTERY"
+          },
+          "defaultTags": [
+            "Energy",
+            "Measurement"
+          ],
+          "autoUpdatePolicy": "DEFAULT"
+        }
+      ],
+      "configuration": {
+        "properties": {
+          "binding_pollperiod": 15,
+          "config_10_1": 12,
+          "config_11_1": 1,
+          "config_12_1": 1,
+          "config_13_1": 1,
+          "config_20_1": 1,
+          "config_21_1": 1,
+          "config_22_1": 0,
+          "config_2_1": -1,
+          "config_3_1": 10,
+          "config_4_1": 99,
+          "config_5_0_00000080": 0,
+          "config_5_1_00000002": 1,
+          "config_5_1_00000004": 0,
+          "config_5_1_00000008": 1,
+          "config_5_1_00000010": 0,
+          "config_5_1_00000020": 0,
+          "config_6_1": 4,
+          "config_7_1_00000002": 0,
+          "config_7_1_00000004": 0,
+          "config_7_1_00000008": 1,
+          "config_7_1_00000010": 1,
+          "config_7_1_00000020": 0,
+          "config_7_1_00000040": 0,
+          "config_8_1": 1,
+          "config_9_1": 1,
+          "group_1": [
+            "controller"
+          ],
+          "group_2": [],
+          "node_id": 5,
+          "wakeup_interval": 1800,
+          "wakeup_node": 1
+        }
+      },
+      "properties": {
+        "dbReference": "168",
+        "defaultAssociations": "1",
+        "manufacturerId": "013C",
+        "manufacturerRef": "0002:000C",
+        "modelId": "PST02A",
+        "vendor": "Philio Technology Corp",
+        "zwave_beaming": "true",
+        "zwave_class_basic": "BASIC_TYPE_ROUTING_SLAVE",
+        "zwave_class_generic": "GENERIC_TYPE_SENSOR_NOTIFICATION",
+        "zwave_class_specific": "SPECIFIC_TYPE_NOTIFICATION_SENSOR",
+        "zwave_deviceid": "12",
+        "zwave_devicetype": "2",
+        "zwave_frequent": "false",
+        "zwave_lastheal": "2022-10-08T00:27:49Z",
+        "zwave_lastwakeup": "2022-10-08T08:08:02Z",
+        "zwave_listening": "false",
+        "zwave_manufacturer": "316",
+        "zwave_neighbours": "1,3,6",
+        "zwave_nodeid": "5",
+        "zwave_plus_devicetype": "NODE_TYPE_ZWAVEPLUS_NODE",
+        "zwave_plus_roletype": "ROLE_TYPE_SLAVE_SLEEPING_REPORTING",
+        "zwave_routing": "true",
+        "zwave_secure": "false",
+        "zwave_version": "1.24"
+      },
+      "uid": {
+        "segments": [
+          "zwave",
+          "device",
+          "f8576f561d",
+          "node5"
+        ],
+        "uid": "zwave:device:f8576f561d:node5"
+      },
+      "thingTypeUID": {
+        "segments": [
+          "zwave",
+          "philio_pst02a_00_000"
+        ],
+        "uid": "zwave:philio_pst02a_00_000"
+      }
+    }
+  },
+  "zwave:device:f8576f561d:node6": {
+    "class": "org.openhab.core.thing.internal.ThingImpl",
+    "value": {
+      "label": "Z-Wave Node 006: HKZW-SO05 Smart Plug",
+      "bridgeUID": {
+        "segments": [
+          "zwave",
+          "serial_zstick",
+          "f8576f561d"
+        ],
+        "uid": "zwave:serial_zstick:f8576f561d"
+      },
+      "channels": [
+        {
+          "acceptedItemType": "Switch",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "zwave",
+              "device",
+              "f8576f561d",
+              "node6",
+              "switch_binary"
+            ],
+            "uid": "zwave:device:f8576f561d:node6:switch_binary"
+          },
+          "channelTypeUID": {
+            "segments": [
+              "zwave",
+              "switch_binary"
+            ],
+            "uid": "zwave:switch_binary"
+          },
+          "label": "Switch",
+          "description": "Switch the power on and off",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {
+            "binding:*:OnOffType": "COMMAND_CLASS_SWITCH_BINARY,COMMAND_CLASS_BASIC"
+          },
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Number",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "zwave",
+              "device",
+              "f8576f561d",
+              "node6",
+              "scene_number"
+            ],
+            "uid": "zwave:device:f8576f561d:node6:scene_number"
+          },
+          "channelTypeUID": {
+            "segments": [
+              "zwave",
+              "scene_number"
+            ],
+            "uid": "zwave:scene_number"
+          },
+          "label": "Scene Number",
+          "description": "Triggers when a scene button is pressed",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {
+            "binding:*:DecimalType": "COMMAND_CLASS_SCENE_ACTIVATION"
+          },
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Number",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "zwave",
+              "device",
+              "f8576f561d",
+              "node6",
+              "meter_kwh"
+            ],
+            "uid": "zwave:device:f8576f561d:node6:meter_kwh"
+          },
+          "channelTypeUID": {
+            "segments": [
+              "zwave",
+              "meter_kwh"
+            ],
+            "uid": "zwave:meter_kwh"
+          },
+          "label": "Electric meter (kWh)",
+          "description": "Indicates the energy consumption (kWh)",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {
+            "binding:*:DecimalType": "COMMAND_CLASS_METER;type\u003dE_KWh"
+          },
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Number",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "zwave",
+              "device",
+              "f8576f561d",
+              "node6",
+              "meter_watts"
+            ],
+            "uid": "zwave:device:f8576f561d:node6:meter_watts"
+          },
+          "channelTypeUID": {
+            "segments": [
+              "zwave",
+              "meter_watts"
+            ],
+            "uid": "zwave:meter_watts"
+          },
+          "label": "Electric meter (watts)",
+          "description": "Indicates the instantaneous power consumption",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {
+            "binding:*:DecimalType": "COMMAND_CLASS_METER;type\u003dE_W"
+          },
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Number",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "zwave",
+              "device",
+              "f8576f561d",
+              "node6",
+              "meter_voltage"
+            ],
+            "uid": "zwave:device:f8576f561d:node6:meter_voltage"
+          },
+          "channelTypeUID": {
+            "segments": [
+              "zwave",
+              "meter_voltage"
+            ],
+            "uid": "zwave:meter_voltage"
+          },
+          "label": "Electric meter (volts)",
+          "description": "Indicates the instantaneous voltage",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {
+            "binding:*:DecimalType": "COMMAND_CLASS_METER;type\u003dE_V"
+          },
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Number",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "zwave",
+              "device",
+              "f8576f561d",
+              "node6",
+              "meter_current"
+            ],
+            "uid": "zwave:device:f8576f561d:node6:meter_current"
+          },
+          "channelTypeUID": {
+            "segments": [
+              "zwave",
+              "meter_current"
+            ],
+            "uid": "zwave:meter_current"
+          },
+          "label": "Electric meter (amps)",
+          "description": "Indicates the instantaneous current consumption",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {
+            "binding:*:DecimalType": "COMMAND_CLASS_METER;type\u003dE_A"
+          },
+          "defaultTags": []
+        }
+      ],
+      "configuration": {
+        "properties": {
+          "binding_pollperiod": 15,
+          "config_151_2": 50,
+          "config_152_1": 10,
+          "config_171_4": 30,
+          "config_172_4": 15,
+          "config_173_4": 0,
+          "config_174_4": 0,
+          "config_20_1_wo": 0,
+          "config_21_1": 0,
+          "config_24_1": 1,
+          "config_27_1": 0,
+          "group_1": [
+            "controller"
+          ],
+          "node_id": 6,
+          "switchall_mode": 255
+        }
+      },
+      "properties": {
+        "dbReference": "487",
+        "defaultAssociations": "1",
+        "manufacturerId": "0208",
+        "manufacturerRef": "0100:000A",
+        "modelId": "HKZW-SO05",
+        "vendor": "Hank",
+        "zwave_beaming": "true",
+        "zwave_class_basic": "BASIC_TYPE_ROUTING_SLAVE",
+        "zwave_class_generic": "GENERIC_TYPE_SWITCH_BINARY",
+        "zwave_class_specific": "SPECIFIC_TYPE_POWER_SWITCH_BINARY",
+        "zwave_deviceid": "10",
+        "zwave_devicetype": "256",
+        "zwave_frequent": "false",
+        "zwave_lastheal": "2022-10-08T00:08:23Z",
+        "zwave_listening": "true",
+        "zwave_manufacturer": "520",
+        "zwave_neighbours": "1,3",
+        "zwave_nodeid": "6",
+        "zwave_plus_devicetype": "NODE_TYPE_ZWAVEPLUS_NODE",
+        "zwave_plus_roletype": "ROLE_TYPE_SLAVE_ALWAYS_ON",
+        "zwave_routing": "true",
+        "zwave_secure": "false",
+        "zwave_version": "1.3"
+      },
+      "uid": {
+        "segments": [
+          "zwave",
+          "device",
+          "f8576f561d",
+          "node6"
+        ],
+        "uid": "zwave:device:f8576f561d:node6"
+      },
+      "thingTypeUID": {
+        "segments": [
+          "zwave",
+          "hank_so05_00_000"
+        ],
+        "uid": "zwave:hank_so05_00_000"
+      }
+    }
+  },
+  "zwave:device:fc241cb69f:node5": {
+    "class": "org.openhab.core.thing.internal.ThingImpl",
+    "value": {
+      "label": "Z-Wave Zipato Red Button",
+      "bridgeUID": {
+        "segments": [
+          "zwave",
+          "serial_zstick",
+          "fc241cb69f"
+        ],
+        "uid": "zwave:serial_zstick:fc241cb69f"
+      },
+      "channels": [],
+      "configuration": {
+        "properties": {
+          "action_heal": false,
+          "node_id": 5
+        }
+      },
+      "properties": {
+        "zwave_beaming": "true",
+        "zwave_class_basic": "BASIC_TYPE_ROUTING_SLAVE",
+        "zwave_class_generic": "GENERIC_TYPE_SENSOR_MULTILEVEL",
+        "zwave_class_specific": "SPECIFIC_TYPE_ROUTING_SENSOR_MULTILEVEL",
+        "zwave_frequent": "false",
+        "zwave_lastheal": "2022-02-04T14:27:52Z",
+        "zwave_listening": "true",
+        "zwave_neighbours": "1",
+        "zwave_nodeid": "5",
+        "zwave_routing": "true",
+        "zwave_secure": "false",
+        "zwave_version": "0.0"
+      },
+      "uid": {
+        "segments": [
+          "zwave",
+          "device",
+          "fc241cb69f",
+          "node5"
+        ],
+        "uid": "zwave:device:fc241cb69f:node5"
+      },
+      "thingTypeUID": {
+        "segments": [
+          "zwave",
+          "device"
+        ],
+        "uid": "zwave:device"
+      }
+    }
+  },
+  "zwave:serial_zstick:f8576f561d": {
+    "class": "org.openhab.core.thing.internal.BridgeImpl",
+    "value": {
+      "label": "Z-Wave Serial Controller",
+      "channels": [
+        {
+          "acceptedItemType": "Number",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "zwave",
+              "serial_zstick",
+              "f8576f561d",
+              "serial_sof"
+            ],
+            "uid": "zwave:serial_zstick:f8576f561d:serial_sof"
+          },
+          "channelTypeUID": {
+            "segments": [
+              "zwave",
+              "serial_sof"
+            ],
+            "uid": "zwave:serial_sof"
+          },
+          "label": "Start Frames",
+          "description": "Counter tracking the number of SOF bytes received",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Number",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "zwave",
+              "serial_zstick",
+              "f8576f561d",
+              "serial_ack"
+            ],
+            "uid": "zwave:serial_zstick:f8576f561d:serial_ack"
+          },
+          "channelTypeUID": {
+            "segments": [
+              "zwave",
+              "serial_ack"
+            ],
+            "uid": "zwave:serial_ack"
+          },
+          "label": "Frames Acknowledged",
+          "description": "Counter tracking the number of frames acknowledged by the controller",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Number",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "zwave",
+              "serial_zstick",
+              "f8576f561d",
+              "serial_nak"
+            ],
+            "uid": "zwave:serial_zstick:f8576f561d:serial_nak"
+          },
+          "channelTypeUID": {
+            "segments": [
+              "zwave",
+              "serial_nak"
+            ],
+            "uid": "zwave:serial_nak"
+          },
+          "label": "Frames Rejected",
+          "description": "Counter tracking the number of frames rejected by the controller",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Number",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "zwave",
+              "serial_zstick",
+              "f8576f561d",
+              "serial_can"
+            ],
+            "uid": "zwave:serial_zstick:f8576f561d:serial_can"
+          },
+          "channelTypeUID": {
+            "segments": [
+              "zwave",
+              "serial_can"
+            ],
+            "uid": "zwave:serial_can"
+          },
+          "label": "Frames Cancelled",
+          "description": "Counter tracking the number of frames cancelled by the controller",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Number",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "zwave",
+              "serial_zstick",
+              "f8576f561d",
+              "serial_oof"
+            ],
+            "uid": "zwave:serial_zstick:f8576f561d:serial_oof"
+          },
+          "channelTypeUID": {
+            "segments": [
+              "zwave",
+              "serial_oof"
+            ],
+            "uid": "zwave:serial_oof"
+          },
+          "label": "OOF Bytes Received",
+          "description": "Counter tracking the number of out of flow bytes received",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Number",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "zwave",
+              "serial_zstick",
+              "f8576f561d",
+              "serial_cse"
+            ],
+            "uid": "zwave:serial_zstick:f8576f561d:serial_cse"
+          },
+          "channelTypeUID": {
+            "segments": [
+              "zwave",
+              "serial_cse"
+            ],
+            "uid": "zwave:serial_cse"
+          },
+          "label": "Received Checksum Errors",
+          "description": "Counter tracking the number of frames received with checksum errors",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        }
+      ],
+      "configuration": {
+        "properties": {
+          "controller_exclude": false,
+          "controller_hardreset": false,
+          "controller_inclusiontimeout": 30,
+          "controller_master": true,
+          "controller_sisnode": 1,
+          "controller_softreset": false,
+          "controller_sync": false,
+          "controller_wakeupperiod": 3600,
+          "heal_time": 2,
+          "inclusion_mode": 2,
+          "port": "/dev/ttyACM0",
+          "security_inclusionmode": 0,
+          "security_networkkey": "FB 6A 02 5B 8B 6C 32 7B F8 07 9A 56 7F 0C D5 97"
+        }
+      },
+      "properties": {},
+      "uid": {
+        "segments": [
+          "zwave",
+          "serial_zstick",
+          "f8576f561d"
+        ],
+        "uid": "zwave:serial_zstick:f8576f561d"
+      },
+      "thingTypeUID": {
+        "segments": [
+          "zwave",
+          "serial_zstick"
+        ],
+        "uid": "zwave:serial_zstick"
+      }
+    }
+  }
+}

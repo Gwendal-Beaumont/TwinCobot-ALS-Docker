@@ -1,0 +1,14 @@
+{
+  "http:url:89c5736419": {
+    "class": "java.lang.String",
+    "value": ""
+  },
+  "http:url:da0315f572": {
+    "class": "java.lang.String",
+    "value": ""
+  },
+  "zwave:device:f514a95ff4:node6": {
+    "class": "java.lang.String",
+    "value": ""
+  }
+}

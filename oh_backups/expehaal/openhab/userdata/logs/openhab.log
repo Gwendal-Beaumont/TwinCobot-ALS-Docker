@@ -1,0 +1,123 @@
+2022-12-09 19:08:36.868 [INFO ] [.core.internal.i18n.I18nProviderImpl] - Time zone set to 'Europe/Paris'.
+2022-12-09 19:08:36.896 [INFO ] [.core.internal.i18n.I18nProviderImpl] - Location set to '44.13097085672746,4.081420898437501'.
+2022-12-09 19:08:36.897 [INFO ] [.core.internal.i18n.I18nProviderImpl] - Locale set to 'fr_FR'.
+2022-12-09 19:08:38.968 [INFO ] [e.io.rest.internal.filter.CorsFilter] - enabled CORS for REST API.
+2022-12-09 19:08:38.970 [INFO ] [e.io.rest.internal.filter.CorsFilter] - enabled CORS for REST API.
+2022-12-09 19:08:38.984 [INFO ] [e.io.rest.internal.filter.CorsFilter] - enabled CORS for REST API.
+2022-12-09 19:08:39.026 [INFO ] [e.io.rest.internal.filter.CorsFilter] - enabled CORS for REST API.
+2022-12-09 19:08:39.039 [INFO ] [e.io.rest.internal.filter.CorsFilter] - enabled CORS for REST API.
+2022-12-09 19:08:39.081 [INFO ] [e.io.rest.internal.filter.CorsFilter] - enabled CORS for REST API.
+2022-12-09 19:08:39.094 [INFO ] [e.io.rest.internal.filter.CorsFilter] - enabled CORS for REST API.
+2022-12-09 19:08:39.105 [INFO ] [e.io.rest.internal.filter.CorsFilter] - enabled CORS for REST API.
+2022-12-09 19:08:39.122 [INFO ] [e.io.rest.internal.filter.CorsFilter] - enabled CORS for REST API.
+2022-12-09 19:08:39.135 [INFO ] [e.io.rest.internal.filter.CorsFilter] - enabled CORS for REST API.
+2022-12-09 19:08:39.152 [INFO ] [e.io.rest.internal.filter.CorsFilter] - enabled CORS for REST API.
+2022-12-09 19:08:39.172 [INFO ] [e.io.rest.internal.filter.CorsFilter] - enabled CORS for REST API.
+2022-12-09 19:08:39.186 [INFO ] [e.io.rest.internal.filter.CorsFilter] - enabled CORS for REST API.
+2022-12-09 19:08:39.207 [INFO ] [e.io.rest.internal.filter.CorsFilter] - enabled CORS for REST API.
+2022-12-09 19:08:39.231 [INFO ] [e.io.rest.internal.filter.CorsFilter] - enabled CORS for REST API.
+2022-12-09 19:08:39.262 [INFO ] [e.io.rest.internal.filter.CorsFilter] - enabled CORS for REST API.
+2022-12-09 19:08:39.289 [INFO ] [e.io.rest.internal.filter.CorsFilter] - enabled CORS for REST API.
+2022-12-09 19:08:39.326 [INFO ] [e.io.rest.internal.filter.CorsFilter] - enabled CORS for REST API.
+2022-12-09 19:08:39.375 [INFO ] [e.io.rest.internal.filter.CorsFilter] - enabled CORS for REST API.
+2022-12-09 19:08:39.411 [INFO ] [e.io.rest.internal.filter.CorsFilter] - enabled CORS for REST API.
+2022-12-09 19:08:39.471 [WARN ] [org.openhab.core.net.NetUtil        ] - Found multiple local interfaces - ignoring 159.31.103.173
+2022-12-09 19:08:40.527 [INFO ] [e.io.rest.internal.filter.CorsFilter] - enabled CORS for REST API.
+2022-12-09 19:08:40.678 [INFO ] [e.io.rest.internal.filter.CorsFilter] - enabled CORS for REST API.
+2022-12-09 19:08:40.923 [INFO ] [e.io.rest.internal.filter.CorsFilter] - enabled CORS for REST API.
+2022-12-09 19:08:41.716 [INFO ] [.core.model.lsp.internal.ModelServer] - Started Language Server Protocol (LSP) service on port 5007
+2022-12-09 19:08:41.834 [INFO ] [e.io.rest.internal.filter.CorsFilter] - enabled CORS for REST API.
+2022-12-09 19:08:41.941 [INFO ] [e.io.rest.internal.filter.CorsFilter] - enabled CORS for REST API.
+2022-12-09 19:08:41.982 [INFO ] [e.io.rest.internal.filter.CorsFilter] - enabled CORS for REST API.
+2022-12-09 19:08:42.113 [INFO ] [e.io.rest.internal.filter.CorsFilter] - enabled CORS for REST API.
+2022-12-09 19:08:42.208 [INFO ] [e.io.rest.internal.filter.CorsFilter] - enabled CORS for REST API.
+2022-12-09 19:08:42.288 [INFO ] [e.io.rest.internal.filter.CorsFilter] - enabled CORS for REST API.
+2022-12-09 19:08:42.460 [INFO ] [e.io.rest.internal.filter.CorsFilter] - enabled CORS for REST API.
+2022-12-09 19:08:42.642 [INFO ] [e.io.rest.internal.filter.CorsFilter] - enabled CORS for REST API.
+2022-12-09 19:08:42.752 [INFO ] [e.io.rest.internal.filter.CorsFilter] - enabled CORS for REST API.
+2022-12-09 19:08:42.857 [INFO ] [e.io.rest.internal.filter.CorsFilter] - enabled CORS for REST API.
+2022-12-09 19:08:42.959 [INFO ] [org.openhab.ui.internal.UIService   ] - Started UI on port 8080
+2022-12-09 19:08:43.026 [WARN ] [ty.util.ssl.SslContextFactory.config] - Trusting all certificates configured for Client@4795c64b[provider=null,keyStore=null,trustStore=null]
+2022-12-09 19:08:43.026 [WARN ] [ty.util.ssl.SslContextFactory.config] - No Client EndPointIdentificationAlgorithm configured for Client@4795c64b[provider=null,keyStore=null,trustStore=null]
+2022-12-09 19:08:43.103 [INFO ] [nding.http.internal.HttpThingHandler] - Using the secure client for thing 'http:url:da0315f572'.
+2022-12-09 19:08:43.108 [INFO ] [.network.internal.utils.NetworkUtils] - CIDR prefix is smaller than /24 on interface with address 159.31.103.173/22, truncating to /24, some addresses might be lost
+2022-12-09 19:08:43.123 [INFO ] [nding.http.internal.HttpThingHandler] - Using the secure client for thing 'http:url:89c5736419'.
+2022-12-09 19:08:43.878 [INFO ] [e.io.rest.internal.filter.CorsFilter] - enabled CORS for REST API.
+2022-12-09 19:08:44.036 [INFO ] [ab.ui.habpanel.internal.HABPanelTile] - Started HABPanel at /habpanel
+2022-12-09 19:08:45.127 [INFO ] [zwave.handler.ZWaveControllerHandler] - Attempting to add listener when controller is null
+2022-12-09 19:08:47.098 [INFO ] [e.automation.internal.RuleEngineImpl] - Rule engine started.
+2022-12-09 19:08:47.157 [WARN ] [p.internal.http.HttpResponseListener] - Requesting 'http://192.168.50.10:5000/predict/5896/single_datetime?datetime=2022-12-09_7:08:00' (method='GET', content='null') failed: Total timeout 3000 ms elapsed
+2022-12-09 19:08:47.157 [WARN ] [p.internal.http.HttpResponseListener] - Requesting 'http://192.168.50.10:5000/predict/5896/single_datetime_values?datetime=2022-12-09_7:08:00&nbvalues=3' (method='GET', content='null') failed: Total timeout 3000 ms elapsed
+2022-12-09 19:08:50.701 [WARN ] [.io.rest.auth.internal.TokenResource] - Couldn't find a user with a session matching the provided refresh_token
+2022-12-09 19:08:50.704 [WARN ] [.io.rest.auth.internal.TokenResource] - Token issuing failed: invalid_grant
+2022-12-09 19:08:57.176 [WARN ] [p.internal.http.HttpResponseListener] - Requesting 'http://192.168.50.10:5000/predict/5896/single_datetime_values?datetime=2022-12-09_7:08:00&nbvalues=3' (method='GET', content='null') failed: Total timeout 3000 ms elapsed
+2022-12-09 19:08:57.178 [WARN ] [p.internal.http.HttpResponseListener] - Requesting 'http://192.168.50.10:5000/predict/5896/single_datetime?datetime=2022-12-09_7:08:00' (method='GET', content='null') failed: Total timeout 3000 ms elapsed
+2022-12-09 19:09:07.177 [WARN ] [p.internal.http.HttpResponseListener] - Requesting 'http://192.168.50.10:5000/predict/5896/single_datetime?datetime=2022-12-09_7:09:00' (method='GET', content='null') failed: Total timeout 3000 ms elapsed
+2022-12-09 19:09:07.177 [WARN ] [p.internal.http.HttpResponseListener] - Requesting 'http://192.168.50.10:5000/predict/5896/single_datetime_values?datetime=2022-12-09_7:09:00&nbvalues=3' (method='GET', content='null') failed: Total timeout 3000 ms elapsed
+2022-12-09 19:09:17.179 [WARN ] [p.internal.http.HttpResponseListener] - Requesting 'http://192.168.50.10:5000/predict/5896/single_datetime?datetime=2022-12-09_7:09:00' (method='GET', content='null') failed: Total timeout 3000 ms elapsed
+2022-12-09 19:09:17.181 [WARN ] [p.internal.http.HttpResponseListener] - Requesting 'http://192.168.50.10:5000/predict/5896/single_datetime_values?datetime=2022-12-09_7:09:00&nbvalues=3' (method='GET', content='null') failed: Total timeout 3000 ms elapsed
+2022-12-09 19:09:27.181 [WARN ] [p.internal.http.HttpResponseListener] - Requesting 'http://192.168.50.10:5000/predict/5896/single_datetime?datetime=2022-12-09_7:09:00' (method='GET', content='null') failed: Total timeout 3000 ms elapsed
+2022-12-09 19:09:27.185 [WARN ] [p.internal.http.HttpResponseListener] - Requesting 'http://192.168.50.10:5000/predict/5896/single_datetime_values?datetime=2022-12-09_7:09:00&nbvalues=3' (method='GET', content='null') failed: Total timeout 3000 ms elapsed
+2022-12-09 19:09:37.183 [WARN ] [p.internal.http.HttpResponseListener] - Requesting 'http://192.168.50.10:5000/predict/5896/single_datetime?datetime=2022-12-09_7:09:00' (method='GET', content='null') failed: Total timeout 3000 ms elapsed
+2022-12-09 19:09:37.186 [WARN ] [p.internal.http.HttpResponseListener] - Requesting 'http://192.168.50.10:5000/predict/5896/single_datetime_values?datetime=2022-12-09_7:09:00&nbvalues=3' (method='GET', content='null') failed: Total timeout 3000 ms elapsed
+2022-12-09 19:09:47.184 [WARN ] [p.internal.http.HttpResponseListener] - Requesting 'http://192.168.50.10:5000/predict/5896/single_datetime?datetime=2022-12-09_7:09:00' (method='GET', content='null') failed: Total timeout 3000 ms elapsed
+2022-12-09 19:09:47.187 [WARN ] [p.internal.http.HttpResponseListener] - Requesting 'http://192.168.50.10:5000/predict/5896/single_datetime_values?datetime=2022-12-09_7:09:00&nbvalues=3' (method='GET', content='null') failed: Total timeout 3000 ms elapsed
+2022-12-09 19:09:50.226 [INFO ] [ve.internal.protocol.ZWaveController] - Starting ZWave controller
+2022-12-09 19:09:50.228 [INFO ] [ve.internal.protocol.ZWaveController] - ZWave timeout is set to 5000ms. Soft reset is false.
+2022-12-09 19:09:57.185 [WARN ] [p.internal.http.HttpResponseListener] - Requesting 'http://192.168.50.10:5000/predict/5896/single_datetime?datetime=2022-12-09_7:09:00' (method='GET', content='null') failed: Total timeout 3000 ms elapsed
+2022-12-09 19:09:57.188 [WARN ] [p.internal.http.HttpResponseListener] - Requesting 'http://192.168.50.10:5000/predict/5896/single_datetime_values?datetime=2022-12-09_7:09:00&nbvalues=3' (method='GET', content='null') failed: Total timeout 3000 ms elapsed
+2022-12-09 19:10:07.186 [WARN ] [p.internal.http.HttpResponseListener] - Requesting 'http://192.168.50.10:5000/predict/5896/single_datetime?datetime=2022-12-09_7:10:00' (method='GET', content='null') failed: Total timeout 3000 ms elapsed
+2022-12-09 19:10:07.189 [WARN ] [p.internal.http.HttpResponseListener] - Requesting 'http://192.168.50.10:5000/predict/5896/single_datetime_values?datetime=2022-12-09_7:10:00&nbvalues=3' (method='GET', content='null') failed: Total timeout 3000 ms elapsed
+2022-12-09 19:10:17.188 [WARN ] [p.internal.http.HttpResponseListener] - Requesting 'http://192.168.50.10:5000/predict/5896/single_datetime?datetime=2022-12-09_7:10:00' (method='GET', content='null') failed: Total timeout 3000 ms elapsed
+2022-12-09 19:10:17.191 [WARN ] [p.internal.http.HttpResponseListener] - Requesting 'http://192.168.50.10:5000/predict/5896/single_datetime_values?datetime=2022-12-09_7:10:00&nbvalues=3' (method='GET', content='null') failed: Total timeout 3000 ms elapsed
+2022-12-09 19:10:18.215 [INFO ] [e.io.rest.internal.filter.CorsFilter] - enabled CORS for REST API.
+2022-12-09 19:10:18.288 [INFO ] [ab.ui.habpanel.internal.HABPanelTile] - Stopped HABPanel
+2022-12-09 19:10:18.307 [INFO ] [basic.internal.servlet.WebAppServlet] - Stopped Basic UI
+2022-12-09 19:10:18.796 [INFO ] [org.openhab.ui.internal.UIService   ] - Stopped UI
+2022-12-09 19:10:18.825 [INFO ] [e.io.rest.internal.filter.CorsFilter] - enabled CORS for REST API.
+2022-12-09 19:10:18.875 [INFO ] [e.io.rest.internal.filter.CorsFilter] - enabled CORS for REST API.
+2022-12-09 19:10:18.930 [INFO ] [e.io.rest.internal.filter.CorsFilter] - enabled CORS for REST API.
+2022-12-09 19:10:18.973 [INFO ] [e.io.rest.internal.filter.CorsFilter] - enabled CORS for REST API.
+2022-12-09 19:10:19.019 [INFO ] [e.io.rest.internal.filter.CorsFilter] - enabled CORS for REST API.
+2022-12-09 19:10:19.069 [INFO ] [e.io.rest.internal.filter.CorsFilter] - enabled CORS for REST API.
+2022-12-09 19:10:19.177 [INFO ] [e.io.rest.internal.filter.CorsFilter] - enabled CORS for REST API.
+2022-12-09 19:10:19.203 [WARN ] [.transport.servlet.ServletController] - Can't find the request for http://localhost:8080/rest/things's Observer 
+2022-12-09 19:10:19.205 [WARN ] [.transport.servlet.ServletController] - Can't find the request for http://localhost:8080/rest/inbox's Observer 
+2022-12-09 19:10:19.210 [WARN ] [.transport.servlet.ServletController] - Can't find the request for http://localhost:8080/rest/things's Observer 
+2022-12-09 19:10:19.211 [WARN ] [.transport.servlet.ServletController] - Can't find the request for http://localhost:8080/rest/inbox's Observer 
+2022-12-09 19:10:19.221 [WARN ] [.transport.servlet.ServletController] - Can't find the request for http://localhost:8080/rest/things's Observer 
+2022-12-09 19:10:19.233 [WARN ] [.transport.servlet.ServletController] - Can't find the request for http://localhost:8080/rest/things's Observer 
+2022-12-09 19:10:19.236 [WARN ] [.transport.servlet.ServletController] - Can't find the request for http://localhost:8080/rest/inbox's Observer 
+2022-12-09 19:10:19.242 [WARN ] [.transport.servlet.ServletController] - Can't find the request for http://localhost:8080/rest/inbox's Observer 
+2022-12-09 19:10:19.255 [WARN ] [.transport.servlet.ServletController] - Can't find the request for http://localhost:8080/rest/things's Observer 
+2022-12-09 19:10:19.255 [WARN ] [.transport.servlet.ServletController] - Can't find the request for http://localhost:8080/rest/inbox's Observer 
+2022-12-09 19:10:19.256 [INFO ] [e.io.rest.internal.filter.CorsFilter] - enabled CORS for REST API.
+2022-12-09 19:10:19.257 [WARN ] [.transport.servlet.ServletController] - Can't find the request for http://localhost:8080/rest/things's Observer 
+2022-12-09 19:10:19.257 [WARN ] [.transport.servlet.ServletController] - Can't find the request for http://localhost:8080/rest/inbox's Observer 
+2022-12-09 19:10:19.260 [WARN ] [.transport.servlet.ServletController] - Can't find the request for http://localhost:8080/rest/inbox's Observer 
+2022-12-09 19:10:19.262 [WARN ] [.transport.servlet.ServletController] - Can't find the request for http://localhost:8080/rest/things's Observer 
+2022-12-09 19:10:19.264 [WARN ] [.transport.servlet.ServletController] - Can't find the request for http://localhost:8080/rest/inbox's Observer 
+2022-12-09 19:10:19.264 [WARN ] [.transport.servlet.ServletController] - Can't find the request for http://localhost:8080/rest/things's Observer 
+2022-12-09 19:10:19.275 [WARN ] [.transport.servlet.ServletController] - Can't find the request for http://localhost:8080/rest/inbox's Observer 
+2022-12-09 19:10:19.332 [INFO ] [e.io.rest.internal.filter.CorsFilter] - enabled CORS for REST API.
+2022-12-09 19:10:19.393 [INFO ] [e.io.rest.internal.filter.CorsFilter] - enabled CORS for REST API.
+2022-12-09 19:10:19.445 [INFO ] [e.io.rest.internal.filter.CorsFilter] - enabled CORS for REST API.
+2022-12-09 19:10:19.485 [INFO ] [e.io.rest.internal.filter.CorsFilter] - enabled CORS for REST API.
+2022-12-09 19:10:19.512 [INFO ] [e.io.rest.internal.filter.CorsFilter] - enabled CORS for REST API.
+2022-12-09 19:10:27.608 [INFO ] [e.io.rest.internal.filter.CorsFilter] - enabled CORS for REST API.
+2022-12-09 19:10:27.680 [INFO ] [e.io.rest.internal.filter.CorsFilter] - enabled CORS for REST API.
+2022-12-09 19:10:27.728 [INFO ] [e.io.rest.internal.filter.CorsFilter] - enabled CORS for REST API.
+2022-12-09 19:10:27.763 [INFO ] [e.io.rest.internal.filter.CorsFilter] - enabled CORS for REST API.
+2022-12-09 19:10:27.793 [INFO ] [e.io.rest.internal.filter.CorsFilter] - enabled CORS for REST API.
+2022-12-09 19:10:27.818 [INFO ] [e.io.rest.internal.filter.CorsFilter] - enabled CORS for REST API.
+2022-12-09 19:10:27.854 [INFO ] [e.io.rest.internal.filter.CorsFilter] - enabled CORS for REST API.
+2022-12-09 19:10:27.876 [INFO ] [e.io.rest.internal.filter.CorsFilter] - enabled CORS for REST API.
+2022-12-09 19:10:27.900 [INFO ] [e.io.rest.internal.filter.CorsFilter] - enabled CORS for REST API.
+2022-12-09 19:10:27.922 [INFO ] [e.io.rest.internal.filter.CorsFilter] - enabled CORS for REST API.
+2022-12-09 19:10:27.938 [INFO ] [e.io.rest.internal.filter.CorsFilter] - enabled CORS for REST API.
+2022-12-09 19:10:27.953 [INFO ] [e.io.rest.internal.filter.CorsFilter] - enabled CORS for REST API.
+2022-12-09 19:10:27.965 [INFO ] [e.io.rest.internal.filter.CorsFilter] - enabled CORS for REST API.
+2022-12-09 19:10:27.975 [INFO ] [e.io.rest.internal.filter.CorsFilter] - enabled CORS for REST API.
+2022-12-09 19:10:27.984 [INFO ] [e.io.rest.internal.filter.CorsFilter] - enabled CORS for REST API.
+2022-12-09 19:10:27.993 [INFO ] [e.io.rest.internal.filter.CorsFilter] - enabled CORS for REST API.
+2022-12-09 19:10:28.002 [INFO ] [e.io.rest.internal.filter.CorsFilter] - enabled CORS for REST API.

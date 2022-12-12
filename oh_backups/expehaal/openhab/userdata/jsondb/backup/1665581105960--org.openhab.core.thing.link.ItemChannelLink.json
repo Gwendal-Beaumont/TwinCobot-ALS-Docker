@@ -1,0 +1,496 @@
+{
+  "HTTPBedPressurePredictor_bed_press_predictor_channel -\u003e http:url:89c5736419:bed_press_predictor_channel": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "http",
+          "url",
+          "89c5736419",
+          "bed_press_predictor_channel"
+        ],
+        "uid": "http:url:89c5736419:bed_press_predictor_channel"
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "HTTPBedPressurePredictor_bed_press_predictor_channel"
+    }
+  },
+  "HTTPBedPressureSimulator_bed_press_simulator_channel -\u003e http:url:da0315f572:bed_press_simulator_channel": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "http",
+          "url",
+          "da0315f572",
+          "bed_press_simulator_channel"
+        ],
+        "uid": "http:url:da0315f572:bed_press_simulator_channel"
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "HTTPBedPressureSimulator_bed_press_simulator_channel"
+    }
+  },
+  "ZWaveNode003RGBWE2RGBWBulbV2_ColorControl -\u003e zwave:device:f8576f561d:node3:color_color": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "zwave",
+          "device",
+          "f8576f561d",
+          "node3",
+          "color_color"
+        ],
+        "uid": "zwave:device:f8576f561d:node3:color_color"
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "ZWaveNode003RGBWE2RGBWBulbV2_ColorControl"
+    }
+  },
+  "ZWaveNode003RGBWE2RGBWBulbV2_ColorTemperature -\u003e zwave:device:f8576f561d:node3:color_temperature": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "zwave",
+          "device",
+          "f8576f561d",
+          "node3",
+          "color_temperature"
+        ],
+        "uid": "zwave:device:f8576f561d:node3:color_temperature"
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "ZWaveNode003RGBWE2RGBWBulbV2_ColorTemperature"
+    }
+  },
+  "ZWaveNode003RGBWE2RGBWBulbV2_Dimmer -\u003e zwave:device:f8576f561d:node3:switch_dimmer": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "zwave",
+          "device",
+          "f8576f561d",
+          "node3",
+          "switch_dimmer"
+        ],
+        "uid": "zwave:device:f8576f561d:node3:switch_dimmer"
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "ZWaveNode003RGBWE2RGBWBulbV2_Dimmer"
+    }
+  },
+  "ZWaveNode004ZW100Multisensor6_MotionAlarm -\u003e zwave:device:f8576f561d:node4:alarm_motion": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "zwave",
+          "device",
+          "f8576f561d",
+          "node4",
+          "alarm_motion"
+        ],
+        "uid": "zwave:device:f8576f561d:node4:alarm_motion"
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "ZWaveNode004ZW100Multisensor6_MotionAlarm"
+    }
+  },
+  "ZWaveNode004ZW100Multisensor6_Sensorluminance -\u003e zwave:device:f8576f561d:node4:sensor_luminance": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "zwave",
+          "device",
+          "f8576f561d",
+          "node4",
+          "sensor_luminance"
+        ],
+        "uid": "zwave:device:f8576f561d:node4:sensor_luminance"
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "ZWaveNode004ZW100Multisensor6_Sensorluminance"
+    }
+  },
+  "ZWaveNode004ZW100Multisensor6_Sensorrelativehumidity -\u003e zwave:device:f8576f561d:node4:sensor_relhumidity": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "zwave",
+          "device",
+          "f8576f561d",
+          "node4",
+          "sensor_relhumidity"
+        ],
+        "uid": "zwave:device:f8576f561d:node4:sensor_relhumidity"
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "ZWaveNode004ZW100Multisensor6_Sensorrelativehumidity"
+    }
+  },
+  "ZWaveNode004ZW100Multisensor6_Sensortemperature -\u003e zwave:device:f8576f561d:node4:sensor_temperature": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "zwave",
+          "device",
+          "f8576f561d",
+          "node4",
+          "sensor_temperature"
+        ],
+        "uid": "zwave:device:f8576f561d:node4:sensor_temperature"
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "ZWaveNode004ZW100Multisensor6_Sensortemperature"
+    }
+  },
+  "ZWaveNode004ZW100Multisensor6_Sensorultraviolet -\u003e zwave:device:f8576f561d:node4:sensor_ultraviolet": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "zwave",
+          "device",
+          "f8576f561d",
+          "node4",
+          "sensor_ultraviolet"
+        ],
+        "uid": "zwave:device:f8576f561d:node4:sensor_ultraviolet"
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "ZWaveNode004ZW100Multisensor6_Sensorultraviolet"
+    }
+  },
+  "ZWaveNode004ZW100Multisensor6_TamperAlarm -\u003e zwave:device:f8576f561d:node4:alarm_tamper": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "zwave",
+          "device",
+          "f8576f561d",
+          "node4",
+          "alarm_tamper"
+        ],
+        "uid": "zwave:device:f8576f561d:node4:alarm_tamper"
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "ZWaveNode004ZW100Multisensor6_TamperAlarm"
+    }
+  },
+  "ZWaveNode005PST02ASlimMultiSensorPIRDoorTemperatureIllumination_AlarmAccessControl -\u003e zwave:device:f8576f561d:node5:alarm_access": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "zwave",
+          "device",
+          "f8576f561d",
+          "node5",
+          "alarm_access"
+        ],
+        "uid": "zwave:device:f8576f561d:node5:alarm_access"
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "ZWaveNode005PST02ASlimMultiSensorPIRDoorTemperatureIllumination_AlarmAccessControl"
+    }
+  },
+  "ZWaveNode005PST02ASlimMultiSensorPIRDoorTemperatureIllumination_AlarmBurglar -\u003e zwave:device:f8576f561d:node5:alarm_burglar": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "zwave",
+          "device",
+          "f8576f561d",
+          "node5",
+          "alarm_burglar"
+        ],
+        "uid": "zwave:device:f8576f561d:node5:alarm_burglar"
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "ZWaveNode005PST02ASlimMultiSensorPIRDoorTemperatureIllumination_AlarmBurglar"
+    }
+  },
+  "ZWaveNode005PST02ASlimMultiSensorPIRDoorTemperatureIllumination_DoorWindowSensor -\u003e zwave:device:f8576f561d:node5:sensor_door": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "zwave",
+          "device",
+          "f8576f561d",
+          "node5",
+          "sensor_door"
+        ],
+        "uid": "zwave:device:f8576f561d:node5:sensor_door"
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "ZWaveNode005PST02ASlimMultiSensorPIRDoorTemperatureIllumination_DoorWindowSensor"
+    }
+  },
+  "ZWaveNode005PST02ASlimMultiSensorPIRDoorTemperatureIllumination_MotionSensor -\u003e zwave:device:f8576f561d:node5:alarm_motion": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "zwave",
+          "device",
+          "f8576f561d",
+          "node5",
+          "alarm_motion"
+        ],
+        "uid": "zwave:device:f8576f561d:node5:alarm_motion"
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "ZWaveNode005PST02ASlimMultiSensorPIRDoorTemperatureIllumination_MotionSensor"
+    }
+  },
+  "ZWaveNode005PST02ASlimMultiSensorPIRDoorTemperatureIllumination_NiveauBatterie -\u003e zwave:device:f8576f561d:node5:battery-level": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "zwave",
+          "device",
+          "f8576f561d",
+          "node5",
+          "battery-level"
+        ],
+        "uid": "zwave:device:f8576f561d:node5:battery-level"
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "ZWaveNode005PST02ASlimMultiSensorPIRDoorTemperatureIllumination_NiveauBatterie"
+    }
+  },
+  "ZWaveNode005PST02ASlimMultiSensorPIRDoorTemperatureIllumination_Sensorluminance -\u003e zwave:device:f8576f561d:node5:sensor_luminance": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "zwave",
+          "device",
+          "f8576f561d",
+          "node5",
+          "sensor_luminance"
+        ],
+        "uid": "zwave:device:f8576f561d:node5:sensor_luminance"
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "ZWaveNode005PST02ASlimMultiSensorPIRDoorTemperatureIllumination_Sensorluminance"
+    }
+  },
+  "ZWaveNode005PST02ASlimMultiSensorPIRDoorTemperatureIllumination_Sensortemperature -\u003e zwave:device:f8576f561d:node5:sensor_temperature": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "zwave",
+          "device",
+          "f8576f561d",
+          "node5",
+          "sensor_temperature"
+        ],
+        "uid": "zwave:device:f8576f561d:node5:sensor_temperature"
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "ZWaveNode005PST02ASlimMultiSensorPIRDoorTemperatureIllumination_Sensortemperature"
+    }
+  },
+  "ZWaveNode005PST02ASlimMultiSensorPIRDoorTemperatureIllumination_TamperAlarm -\u003e zwave:device:f8576f561d:node5:alarm_tamper": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "zwave",
+          "device",
+          "f8576f561d",
+          "node5",
+          "alarm_tamper"
+        ],
+        "uid": "zwave:device:f8576f561d:node5:alarm_tamper"
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "ZWaveNode005PST02ASlimMultiSensorPIRDoorTemperatureIllumination_TamperAlarm"
+    }
+  },
+  "ZWaveNode006HKZWSO05SmartPlug_Electricmeteramps -\u003e zwave:device:f8576f561d:node6:meter_current": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "zwave",
+          "device",
+          "f8576f561d",
+          "node6",
+          "meter_current"
+        ],
+        "uid": "zwave:device:f8576f561d:node6:meter_current"
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "ZWaveNode006HKZWSO05SmartPlug_Electricmeteramps"
+    }
+  },
+  "ZWaveNode006HKZWSO05SmartPlug_ElectricmeterkWh -\u003e zwave:device:f8576f561d:node6:meter_kwh": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "zwave",
+          "device",
+          "f8576f561d",
+          "node6",
+          "meter_kwh"
+        ],
+        "uid": "zwave:device:f8576f561d:node6:meter_kwh"
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "ZWaveNode006HKZWSO05SmartPlug_ElectricmeterkWh"
+    }
+  },
+  "ZWaveNode006HKZWSO05SmartPlug_Electricmetervolts -\u003e zwave:device:f8576f561d:node6:meter_voltage": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "zwave",
+          "device",
+          "f8576f561d",
+          "node6",
+          "meter_voltage"
+        ],
+        "uid": "zwave:device:f8576f561d:node6:meter_voltage"
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "ZWaveNode006HKZWSO05SmartPlug_Electricmetervolts"
+    }
+  },
+  "ZWaveNode006HKZWSO05SmartPlug_Electricmeterwatts -\u003e zwave:device:f8576f561d:node6:meter_watts": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "zwave",
+          "device",
+          "f8576f561d",
+          "node6",
+          "meter_watts"
+        ],
+        "uid": "zwave:device:f8576f561d:node6:meter_watts"
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "ZWaveNode006HKZWSO05SmartPlug_Electricmeterwatts"
+    }
+  },
+  "ZWaveNode006HKZWSO05SmartPlug_SceneNumber -\u003e zwave:device:f8576f561d:node6:scene_number": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "zwave",
+          "device",
+          "f8576f561d",
+          "node6",
+          "scene_number"
+        ],
+        "uid": "zwave:device:f8576f561d:node6:scene_number"
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "ZWaveNode006HKZWSO05SmartPlug_SceneNumber"
+    }
+  },
+  "ZWaveNode006HKZWSO05SmartPlug_Switch -\u003e zwave:device:f8576f561d:node6:switch_binary": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "zwave",
+          "device",
+          "f8576f561d",
+          "node6",
+          "switch_binary"
+        ],
+        "uid": "zwave:device:f8576f561d:node6:switch_binary"
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "ZWaveNode006HKZWSO05SmartPlug_Switch"
+    }
+  },
+  "ZWaveNode007FGKF601Keyfob_SceneNumber -\u003e zwave:device:f8576f561d:node7:scene_number": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "zwave",
+          "device",
+          "f8576f561d",
+          "node7",
+          "scene_number"
+        ],
+        "uid": "zwave:device:f8576f561d:node7:scene_number"
+      },
+      "configuration": {
+        "properties": {
+          "profile": "system:default"
+        }
+      },
+      "itemName": "ZWaveNode007FGKF601Keyfob_SceneNumber"
+    }
+  }
+}

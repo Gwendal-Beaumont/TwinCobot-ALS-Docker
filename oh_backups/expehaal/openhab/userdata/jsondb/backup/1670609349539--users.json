@@ -1,0 +1,106 @@
+{
+  "pi": {
+    "class": "org.openhab.core.auth.ManagedUser",
+    "value": {
+      "name": "pi",
+      "passwordHash": "UvfDeJKjx6vz5VXphJ1Qh6vTzXP0cLsTNMceCp5rREqm80hSc2tuqzoLh3M6eLQ0I9tkjcKh9bnTCGN2CJ0o2Q\u003d\u003d",
+      "passwordSalt": "JadzQa4m+KQ9HiiFDnN79bqd0oWH/2/P7RnZWyqTXtr3thHzMZZN7U9ddvyshJjhkODlvz5RA3b6SqHTXGeGXw\u003d\u003d",
+      "roles": [
+        "administrator"
+      ],
+      "sessions": [
+        {
+          "sessionId": "72916ca7-36a5-4c03-9a17-3bf21ea84926",
+          "refreshToken": "e65b065624744366a4a6a82f988776a0",
+          "createdTime": "Feb 4, 2022, 3:02:57 PM",
+          "lastRefreshTime": "Oct 8, 2022, 9:53:34 AM",
+          "clientId": "http://localhost:8080",
+          "redirectUri": "http://localhost:8080",
+          "scope": "admin",
+          "sessionCookie": true
+        },
+        {
+          "sessionId": "082f7fea-dd91-4768-90b9-71bdcef9944c",
+          "refreshToken": "640468bd9deb4eefb6e32d965c71cbce",
+          "createdTime": "Mar 3, 2022, 12:03:57 PM",
+          "lastRefreshTime": "Mar 3, 2022, 9:18:01 PM",
+          "clientId": "http://localhost:8080",
+          "redirectUri": "http://localhost:8080",
+          "scope": "admin",
+          "sessionCookie": true
+        },
+        {
+          "sessionId": "32cd8a8b-360a-4c3a-be1f-fbe562221f46",
+          "refreshToken": "a532805c104d4df79d74ba263028f8ee",
+          "createdTime": "Mar 14, 2022, 5:54:55 PM",
+          "lastRefreshTime": "Mar 23, 2022, 7:32:02 AM",
+          "clientId": "http://localhost:8080",
+          "redirectUri": "http://localhost:8080",
+          "scope": "admin",
+          "sessionCookie": true
+        },
+        {
+          "sessionId": "e09ced3c-e0c2-45e4-8abf-5c52281f6e09",
+          "refreshToken": "f1165183cabd4dc0a3eb53b0bcfc390e",
+          "createdTime": "Mar 23, 2022, 7:32:02 AM",
+          "lastRefreshTime": "Apr 11, 2022, 4:07:10 PM",
+          "clientId": "http://localhost:8080",
+          "redirectUri": "http://localhost:8080",
+          "scope": "admin",
+          "sessionCookie": true
+        },
+        {
+          "sessionId": "5d34fbcb-65a2-43d8-81a1-0256e3a4c86d",
+          "refreshToken": "c371e25f991a4c9f8f6ed22a01707fb1",
+          "createdTime": "May 5, 2022, 9:42:31 AM",
+          "lastRefreshTime": "May 24, 2022, 8:55:00 AM",
+          "clientId": "http://localhost:8080",
+          "redirectUri": "http://localhost:8080",
+          "scope": "admin",
+          "sessionCookie": true
+        },
+        {
+          "sessionId": "853f856f-aca9-4af3-88e9-d55cb859877c",
+          "refreshToken": "c448f0ef24834b4bafeda0aafeca774c",
+          "createdTime": "May 24, 2022, 8:55:00 AM",
+          "lastRefreshTime": "Oct 8, 2022, 10:13:36 AM",
+          "clientId": "http://localhost:8080",
+          "redirectUri": "http://localhost:8080",
+          "scope": "admin",
+          "sessionCookie": true
+        },
+        {
+          "sessionId": "c50f5ddd-c671-4e77-af8e-08cd92e39ad6",
+          "refreshToken": "e6e9d7b5afb0446a96203abd91774f80",
+          "createdTime": "Oct 12, 2022, 11:11:23 AM",
+          "lastRefreshTime": "Oct 11, 2022, 11:52:27 PM",
+          "clientId": "http://localhost:8080",
+          "redirectUri": "http://localhost:8080",
+          "scope": "admin",
+          "sessionCookie": true
+        },
+        {
+          "sessionId": "78a411da-1c94-4d32-90a5-5286ee976171",
+          "refreshToken": "bd652b8629e1409f9b18635c6f5dbd14",
+          "createdTime": "Oct 12, 2022, 5:10:12 PM",
+          "lastRefreshTime": "Oct 12, 2022, 5:10:12 PM",
+          "clientId": "http://localhost:8080",
+          "redirectUri": "http://localhost:8080",
+          "scope": "admin",
+          "sessionCookie": true
+        },
+        {
+          "sessionId": "20e20eb4-ce7e-4feb-ba31-9edf7f309396",
+          "refreshToken": "a7c3acd4ecc043aa978e3c20f0f189e3",
+          "createdTime": "Dec 9, 2022, 7:09:09 PM",
+          "lastRefreshTime": "Dec 9, 2022, 7:09:09 PM",
+          "clientId": "http://localhost:8080",
+          "redirectUri": "http://localhost:8080",
+          "scope": "admin",
+          "sessionCookie": true
+        }
+      ],
+      "apiTokens": []
+    }
+  }
+}

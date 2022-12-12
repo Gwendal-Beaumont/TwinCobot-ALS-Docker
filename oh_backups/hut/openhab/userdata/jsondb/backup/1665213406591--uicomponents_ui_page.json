@@ -1,0 +1,344 @@
+{
+  "overview": {
+    "class": "org.openhab.core.ui.components.RootUIComponent",
+    "value": {
+      "uid": "overview",
+      "tags": [],
+      "props": {
+        "parameters": [],
+        "parameterGroups": []
+      },
+      "timestamp": "May 5, 2022, 6:38:58 PM",
+      "component": "oh-layout-page",
+      "config": {
+        "label": "Overview"
+      },
+      "slots": {
+        "default": [
+          {
+            "component": "oh-block",
+            "config": {},
+            "slots": {
+              "default": [
+                {
+                  "component": "oh-grid-cells",
+                  "config": {},
+                  "slots": {
+                    "default": [
+                      {
+                        "component": "oh-colorpicker-cell",
+                        "config": {
+                          "action": "toggle",
+                          "actionCommand": "ON",
+                          "actionCommandAlt": "OFF",
+                          "actionItem": "ZWaveNode003RGBWE2RGBWBulbV2_ColorControl",
+                          "color": "yellow",
+                          "item": "ZWaveNode003RGBWE2RGBWBulbV2_ColorControl",
+                          "stateAsHeader": true,
+                          "title": "Color Control"
+                        }
+                      },
+                      {
+                        "component": "oh-label-cell",
+                        "config": {
+                          "action": "analyzer",
+                          "actionAnalyzerItems": [
+                            "HTTPBedPressureSimulator_bed_press_simulator_channel"
+                          ],
+                          "expandable": false,
+                          "item": "HTTPBedPressureSimulator_bed_press_simulator_channel",
+                          "stateAsHeader": true,
+                          "title": "Actual Bed Pressure",
+                          "trendItem": "HTTPBedPressureSimulator_bed_press_simulator_channel"
+                        }
+                      },
+                      {
+                        "component": "oh-label-cell",
+                        "config": {
+                          "action": "analyzer",
+                          "actionAnalyzerItems": [
+                            "HTTPBedPressurePredictor_bed_press_predictor_channel"
+                          ],
+                          "expandable": false,
+                          "item": "HTTPBedPressurePredictor_bed_press_predictor_channel",
+                          "stateAsHeader": true,
+                          "title": "Predicted (5min) Bed Pressure",
+                          "trendItem": "HTTPBedPressurePredictor_bed_press_predictor_channel"
+                        }
+                      },
+                      {
+                        "component": "oh-slider-cell",
+                        "config": {
+                          "item": "ZWaveNode003RGBWE2RGBWBulbV2_Dimmer",
+                          "max": 100.0,
+                          "min": 0.0,
+                          "title": "Luminosité lampe"
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "page_1b590db342": {
+    "class": "org.openhab.core.ui.components.RootUIComponent",
+    "value": {
+      "uid": "page_1b590db342",
+      "tags": [],
+      "props": {
+        "parameters": [],
+        "parameterGroups": []
+      },
+      "timestamp": "Oct 8, 2022, 9:05:36 AM",
+      "component": "oh-layout-page",
+      "config": {
+        "label": "Kitchen Dashboard",
+        "sidebar": true,
+        "visibleTo": [
+          "role:administrator",
+          "role:user"
+        ]
+      },
+      "slots": {
+        "canvas": [],
+        "default": [
+          {
+            "component": "oh-block",
+            "config": {},
+            "slots": {
+              "default": [
+                {
+                  "component": "oh-grid-row",
+                  "config": {},
+                  "slots": {
+                    "default": [
+                      {
+                        "component": "oh-grid-col",
+                        "config": {},
+                        "slots": {
+                          "default": []
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "component": "oh-grid-cells",
+                  "config": {},
+                  "slots": {
+                    "default": []
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "grid": [],
+        "masonry": [
+          {
+            "component": "oh-masonry",
+            "slots": {
+              "default": [
+                {
+                  "component": "oh-clock-card",
+                  "config": {}
+                },
+                {
+                  "component": "oh-toggle-card",
+                  "config": {
+                    "item": "ZWaveNode006HKZWSO05SmartPlug_Switch",
+                    "title": "Smart Plug Coffee Machine"
+                  }
+                },
+                {
+                  "component": "oh-knob-card",
+                  "config": {
+                    "item": "ZWaveNode004ZW100Multisensor6_Sensorrelativehumidity",
+                    "max": 100.0,
+                    "min": 0.0,
+                    "outline": true,
+                    "title": "Relative Humidity (in %)"
+                  }
+                },
+                {
+                  "component": "oh-label-card",
+                  "config": {
+                    "item": "ZWaveNode004ZW100Multisensor6_Sensortemperature",
+                    "title": "Temperature (in °C)"
+                  }
+                },
+                {
+                  "component": "oh-label-card",
+                  "config": {
+                    "item": "ZWaveNode004ZW100Multisensor6_Sensorluminance",
+                    "title": "Luminance (Lux)"
+                  }
+                },
+                {
+                  "component": "oh-label-card",
+                  "config": {
+                    "item": "ZWaveNode006HKZWSO05SmartPlug_Electricmeterwatts",
+                    "title": "Smart Plug Power (Watt)"
+                  }
+                },
+                {
+                  "component": "oh-label-card",
+                  "config": {
+                    "item": "ZWaveNode006HKZWSO05SmartPlug_Electricmetervolts",
+                    "title": "Smart Plug Voltage (kWh)"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "page_5b4a2ac473": {
+    "class": "org.openhab.core.ui.components.RootUIComponent",
+    "value": {
+      "uid": "page_5b4a2ac473",
+      "tags": [],
+      "props": {
+        "parameters": [],
+        "parameterGroups": []
+      },
+      "timestamp": "May 24, 2022, 11:29:36 PM",
+      "component": "oh-layout-page",
+      "config": {
+        "label": "Bedroom Dashboard",
+        "order": "",
+        "sidebar": true,
+        "visibleTo": [
+          "role:administrator",
+          "role:user"
+        ]
+      },
+      "slots": {
+        "canvas": [],
+        "default": [],
+        "grid": [],
+        "masonry": [
+          {
+            "component": "oh-masonry",
+            "slots": {
+              "default": [
+                {
+                  "component": "oh-colorpicker-card",
+                  "config": {
+                    "item": "ZWaveNode003RGBWE2RGBWBulbV2_ColorControl",
+                    "modules": [
+                      "wheel",
+                      "rgb-sliders"
+                    ],
+                    "title": "Light Bulb Color"
+                  }
+                },
+                {
+                  "component": "oh-clock-card",
+                  "config": {}
+                },
+                {
+                  "component": "oh-toggle-card",
+                  "config": {
+                    "item": "ZWaveNode003RGBWE2RGBWBulbV2_Dimmer",
+                    "title": "Light Bulb Toggle"
+                  }
+                },
+                {
+                  "component": "oh-slider-card",
+                  "config": {
+                    "item": "ZWaveNode003RGBWE2RGBWBulbV2_Dimmer",
+                    "label": true,
+                    "max": 100.0,
+                    "min": 0.0,
+                    "scale": true,
+                    "scaleSteps": 5.0,
+                    "title": "Ligt Bulb Dimmer",
+                    "unit": "%"
+                  }
+                },
+                {
+                  "component": "oh-slider-card",
+                  "config": {
+                    "item": "ZWaveNode003RGBWE2RGBWBulbV2_ColorTemperature",
+                    "label": true,
+                    "max": 100.0,
+                    "min": 0.0,
+                    "scale": true,
+                    "scaleSteps": 5.0,
+                    "step": -0.03,
+                    "title": "Light Bulb Color Temperature",
+                    "unit": "%"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "page_hall": {
+    "class": "org.openhab.core.ui.components.RootUIComponent",
+    "value": {
+      "uid": "page_hall",
+      "tags": [],
+      "props": {
+        "parameters": [],
+        "parameterGroups": []
+      },
+      "timestamp": "Oct 8, 2022, 9:16:46 AM",
+      "component": "oh-layout-page",
+      "config": {
+        "label": "Entrance Hall Dashboard",
+        "sidebar": true,
+        "visibleTo": [
+          "role:administrator",
+          "role:user"
+        ]
+      },
+      "slots": {
+        "canvas": [],
+        "default": [],
+        "grid": [],
+        "masonry": [
+          {
+            "component": "oh-masonry",
+            "slots": {
+              "default": [
+                {
+                  "component": "oh-label-card",
+                  "config": {
+                    "item": "ZWaveNode005PST02ASlimMultiSensorPIRDoorTemperatureIllumination_DoorWindowSensor",
+                    "title": "Entry Door State"
+                  }
+                },
+                {
+                  "component": "oh-label-card",
+                  "config": {
+                    "item": "ZWaveNode005PST02ASlimMultiSensorPIRDoorTemperatureIllumination_Sensortemperature",
+                    "title": "Temperature (°C)"
+                  }
+                },
+                {
+                  "component": "oh-label-card",
+                  "config": {
+                    "item": "ZWaveNode005PST02ASlimMultiSensorPIRDoorTemperatureIllumination_Sensorluminance",
+                    "title": "Luminance (Lux)"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
+}

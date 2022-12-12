@@ -1,0 +1,49 @@
+{
+  "zwave:device:f8576f561d:node6": {
+    "class": "org.openhab.core.config.discovery.internal.DiscoveryResultImpl",
+    "value": {
+      "bridgeUID": {
+        "segments": [
+          "zwave",
+          "serial_zstick",
+          "f8576f561d"
+        ],
+        "uid": "zwave:serial_zstick:f8576f561d"
+      },
+      "thingUID": {
+        "segments": [
+          "zwave",
+          "device",
+          "f8576f561d",
+          "node6"
+        ],
+        "uid": "zwave:device:f8576f561d:node6"
+      },
+      "thingTypeUID": {
+        "segments": [
+          "zwave",
+          "device"
+        ],
+        "uid": ""
+      },
+      "properties": {
+        "node_id": 6,
+        "zwave_beaming": "true",
+        "zwave_class_basic": "BASIC_TYPE_ROUTING_SLAVE",
+        "zwave_class_generic": "GENERIC_TYPE_SWITCH_BINARY",
+        "zwave_class_specific": "SPECIFIC_TYPE_POWER_SWITCH_BINARY",
+        "zwave_deviceid": "10",
+        "zwave_devicetype": "256",
+        "zwave_frequent": "false",
+        "zwave_listening": "true",
+        "zwave_manufacturer": "520",
+        "zwave_routing": "true",
+        "zwave_version": "1.3"
+      },
+      "flag": "NEW",
+      "label": "Z-Wave Node 006: HKZW-SO05 Smart Plug",
+      "timestamp": 1665155584366,
+      "timeToLive": -1
+    }
+  }
+}

@@ -1,0 +1,427 @@
+{
+  "Bathroom": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [],
+      "itemType": "Group",
+      "tags": [
+        "Bathroom"
+      ],
+      "label": "",
+      "category": ""
+    }
+  },
+  "Bedroom": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [],
+      "itemType": "Group",
+      "tags": [
+        "Bedroom"
+      ],
+      "label": "",
+      "category": "pressure"
+    }
+  },
+  "Entrance_hall": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [],
+      "itemType": "Group",
+      "tags": [
+        "Location"
+      ],
+      "label": "",
+      "category": ""
+    }
+  },
+  "HTTPBedPressurePredictor": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [
+        "Bedroom"
+      ],
+      "itemType": "Group",
+      "tags": [
+        "Equipment"
+      ],
+      "label": "HTTP Bed Pressure Predictor",
+      "category": ""
+    }
+  },
+  "HTTPBedPressurePredictor_bed_press_predictor_channel": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [
+        "HTTPBedPressurePredictor"
+      ],
+      "itemType": "Number",
+      "tags": [
+        "Point"
+      ],
+      "label": "bed_press_predictor_channel",
+      "category": ""
+    }
+  },
+  "HTTPBedPressureSimulator": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [
+        "Bedroom"
+      ],
+      "itemType": "Group",
+      "tags": [
+        "Equipment"
+      ],
+      "label": "HTTP Bed Pressure Simulator",
+      "category": ""
+    }
+  },
+  "HTTPBedPressureSimulator_bed_press_simulator_channel": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [
+        "HTTPBedPressureSimulator"
+      ],
+      "itemType": "Number",
+      "tags": [
+        "Point"
+      ],
+      "label": "bed_press_simulator_channel",
+      "category": ""
+    }
+  },
+  "Kitchen": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [],
+      "itemType": "Group",
+      "tags": [
+        "Kitchen"
+      ],
+      "label": "",
+      "category": ""
+    }
+  },
+  "ZWaveNode003RGBWE2RGBWBulbV2": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [
+        "Bedroom"
+      ],
+      "itemType": "Group",
+      "tags": [
+        "Equipment"
+      ],
+      "label": "Z-Wave Node 003: RGBWE2 RGBW Bulb V2",
+      "category": ""
+    }
+  },
+  "ZWaveNode003RGBWE2RGBWBulbV2_ColorControl": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [
+        "ZWaveNode003RGBWE2RGBWBulbV2"
+      ],
+      "itemType": "Color",
+      "tags": [
+        "Point"
+      ],
+      "label": "Color Control",
+      "category": "ColorLight"
+    }
+  },
+  "ZWaveNode003RGBWE2RGBWBulbV2_ColorTemperature": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [
+        "ZWaveNode003RGBWE2RGBWBulbV2"
+      ],
+      "itemType": "Dimmer",
+      "tags": [
+        "Point"
+      ],
+      "label": "Color Temperature",
+      "category": "ColorLight"
+    }
+  },
+  "ZWaveNode003RGBWE2RGBWBulbV2_Dimmer": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [
+        "ZWaveNode003RGBWE2RGBWBulbV2"
+      ],
+      "itemType": "Dimmer",
+      "tags": [
+        "Point"
+      ],
+      "label": "Dimmer",
+      "category": "DimmableLight"
+    }
+  },
+  "ZWaveNode004ZW100Multisensor6": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [
+        "Kitchen"
+      ],
+      "itemType": "Group",
+      "tags": [
+        "Equipment"
+      ],
+      "label": "Z-Wave Node 004: ZW100 Multisensor 6",
+      "category": ""
+    }
+  },
+  "ZWaveNode004ZW100Multisensor6_MotionAlarm": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [
+        "ZWaveNode004ZW100Multisensor6"
+      ],
+      "itemType": "Switch",
+      "tags": [
+        "Point"
+      ],
+      "label": "Motion Alarm",
+      "category": "Motion"
+    }
+  },
+  "ZWaveNode004ZW100Multisensor6_Sensorluminance": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [
+        "ZWaveNode004ZW100Multisensor6"
+      ],
+      "itemType": "Number",
+      "tags": [
+        "Point"
+      ],
+      "label": "Sensor (luminance)",
+      "category": "light"
+    }
+  },
+  "ZWaveNode004ZW100Multisensor6_Sensorrelativehumidity": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [
+        "ZWaveNode004ZW100Multisensor6"
+      ],
+      "itemType": "Number",
+      "tags": [
+        "Point"
+      ],
+      "label": "Sensor (relative humidity)",
+      "category": "Humidity"
+    }
+  },
+  "ZWaveNode004ZW100Multisensor6_Sensortemperature": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [
+        "ZWaveNode004ZW100Multisensor6"
+      ],
+      "itemType": "Number:Temperature",
+      "tags": [
+        "Point"
+      ],
+      "label": "Sensor (temperature)",
+      "category": "Temperature"
+    }
+  },
+  "ZWaveNode004ZW100Multisensor6_Sensorultraviolet": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [
+        "ZWaveNode004ZW100Multisensor6"
+      ],
+      "itemType": "Number",
+      "tags": [
+        "Point"
+      ],
+      "label": "Sensor (ultraviolet)",
+      "category": "light"
+    }
+  },
+  "ZWaveNode004ZW100Multisensor6_TamperAlarm": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [
+        "ZWaveNode004ZW100Multisensor6"
+      ],
+      "itemType": "Switch",
+      "tags": [
+        "Point"
+      ],
+      "label": "Tamper Alarm",
+      "category": ""
+    }
+  },
+  "ZWaveNode005PST02ASlimMultiSensorPIRDoorTemperatureIllumination": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [
+        "Entrance_hall"
+      ],
+      "itemType": "Group",
+      "tags": [
+        "Equipment"
+      ],
+      "label": "Z-Wave Node 005: PST02A Slim Multi-Sensor (PIR/Door/Temperature/Illumination)",
+      "category": ""
+    }
+  },
+  "ZWaveNode005PST02ASlimMultiSensorPIRDoorTemperatureIllumination_AlarmAccessControl": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [],
+      "itemType": "Switch",
+      "tags": [
+        "Point"
+      ],
+      "label": "Alarm (Access Control)",
+      "category": "Door"
+    }
+  },
+  "ZWaveNode005PST02ASlimMultiSensorPIRDoorTemperatureIllumination_AlarmBurglar": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [],
+      "itemType": "Switch",
+      "tags": [
+        "Point"
+      ],
+      "label": "Alarm (Burglar)",
+      "category": "Door"
+    }
+  },
+  "ZWaveNode005PST02ASlimMultiSensorPIRDoorTemperatureIllumination_DoorWindowSensor": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [
+        "ZWaveNode005PST02ASlimMultiSensorPIRDoorTemperatureIllumination"
+      ],
+      "itemType": "Contact",
+      "tags": [
+        "Point"
+      ],
+      "label": "Door/Window Sensor",
+      "category": "Door"
+    }
+  },
+  "ZWaveNode005PST02ASlimMultiSensorPIRDoorTemperatureIllumination_MotionSensor": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [
+        "ZWaveNode005PST02ASlimMultiSensorPIRDoorTemperatureIllumination"
+      ],
+      "itemType": "Switch",
+      "tags": [
+        "Point"
+      ],
+      "label": "Motion Sensor",
+      "category": "Motion"
+    }
+  },
+  "ZWaveNode005PST02ASlimMultiSensorPIRDoorTemperatureIllumination_NiveauBatterie": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [],
+      "itemType": "Number",
+      "tags": [
+        "Energy",
+        "Measurement"
+      ],
+      "label": "Niveau Batterie",
+      "category": "Battery"
+    }
+  },
+  "ZWaveNode005PST02ASlimMultiSensorPIRDoorTemperatureIllumination_Sensorluminance": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [
+        "ZWaveNode005PST02ASlimMultiSensorPIRDoorTemperatureIllumination"
+      ],
+      "itemType": "Number",
+      "tags": [
+        "Point"
+      ],
+      "label": "Sensor (luminance)",
+      "category": ""
+    }
+  },
+  "ZWaveNode005PST02ASlimMultiSensorPIRDoorTemperatureIllumination_Sensortemperature": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [],
+      "itemType": "Number:Temperature",
+      "tags": [
+        "Point"
+      ],
+      "label": "Sensor (temperature)",
+      "category": "Temperature"
+    }
+  },
+  "ZWaveNode005PST02ASlimMultiSensorPIRDoorTemperatureIllumination_TamperAlarm": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [
+        "ZWaveNode005PST02ASlimMultiSensorPIRDoorTemperatureIllumination"
+      ],
+      "itemType": "Switch",
+      "tags": [
+        "Point"
+      ],
+      "label": "Tamper Alarm",
+      "category": ""
+    }
+  },
+  "ZWaveNode006HKZWSO05SmartPlug_ElectricmeterkWh": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [],
+      "itemType": "Number",
+      "tags": [
+        "Point"
+      ],
+      "label": "Electric meter (kWh)",
+      "category": "Energy"
+    }
+  },
+  "ZWaveNode006HKZWSO05SmartPlug_Electricmeterwatts": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [],
+      "itemType": "Number",
+      "tags": [
+        "Point"
+      ],
+      "label": "Electric meter (watts)",
+      "category": "Energy"
+    }
+  },
+  "ZWaveNode006HKZWSO05SmartPlug_SceneNumber": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [],
+      "itemType": "Number",
+      "tags": [
+        "Point"
+      ],
+      "label": "Scene Number",
+      "category": ""
+    }
+  },
+  "ZWaveNode006HKZWSO05SmartPlug_Switch": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [],
+      "itemType": "Switch",
+      "tags": [
+        "Point"
+      ],
+      "label": "Switch",
+      "category": "Switch"
+    }
+  }
+}
