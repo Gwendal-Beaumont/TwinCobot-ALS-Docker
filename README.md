@@ -12,5 +12,5 @@ The setup requires docker-compose to launch the OpenHab container with specific 
 2. Create the OpenHab user : `sudo useradd -r -s /sbin/nologin openhab`
 3. Add your regular user to the openhab group : `sudo usermod -aG openhab $USER`
 4. Set rights for configuration backups : `sudo chown -R openhab:openhab ./oh_backups`
-5. Run the container with docker-compose: `docker-compose up -d`
+5. Run the container with docker compose: `docker compose up -d`
 6. Share the ttyACM0 with the container (for Z-wave/Zigbee keys) : `docker exec -d twincobot-als-docker-openhab-1  /bin/chmod o+rw /dev/ttyACM0 /bin/chmod o+rw /dev/ttyACM0`
