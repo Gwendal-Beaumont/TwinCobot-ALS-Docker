@@ -1,0 +1,18 @@
+services:
+  openhab:
+    image: "openhab/openhab:latest"
+    restart: always
+    network_mode: host
+    volumes:
+      - "/etc/localtime:/etc/localtime:ro"
+      - "./oh_backups/hut/openhab/addons:/openhab/addons"
+      - "./oh_backups/hut/openhab/conf:/openhab/conf"
+      - "./oh_backups/hut/openhab/userdata:/openhab/userdata"
+    environment:
+      OPENHAB_HTTP_PORT: "8080"
+      OPENHAB_HTTPS_PORT: "8443"
+      EXTRA_JAVA_OPTS: "-Duser.timezone=Europe/Paris"
+      USER_ID: "997"
+      GROUP_ID: "997"
+    devices:
+      - "/dev/ttyACM0:/dev/ttyACM0:rwm"
