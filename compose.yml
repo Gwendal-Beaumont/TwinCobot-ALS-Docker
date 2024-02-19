@@ -14,5 +14,6 @@ services:
       EXTRA_JAVA_OPTS: "-Duser.timezone=Europe/Paris"
       USER_ID: "997"
       GROUP_ID: "997"
-    devices:
-      - "/dev/ttyACM0:/dev/ttyACM0:rwm"
+# Reactivate the lines below if using a Zigbee or Z-wave dongle
+    # devices:
+    #   - "/dev/ttyACM0:/dev/ttyACM0:rwm"
