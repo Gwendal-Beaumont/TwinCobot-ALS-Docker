@@ -2,7 +2,7 @@
 
 ## Prerequisites
 
-1. Linux OS. It's hihgly recommended to have a Linux operating system to avoid different system instabilities.
+1. Linux OS. It's highly recommended to have a Linux operating system to avoid different system instabilities.
 2. Docker and Docker-compose installed. OpenHab container works in a containerization system based on [Docker](https://docs.docker.com/engine/install/).
 The setup requires docker-compose to launch the OpenHab container with specific parameters.
 

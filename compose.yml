@@ -1,7 +1,7 @@
 services:
   openhab:
-    image: "openhab/openhab:latest"
-    restart: always
+    image: "openhab/openhab:latest-alpine"
+    # restart: always
     network_mode: host
     volumes:
       - "/etc/localtime:/etc/localtime:ro"
